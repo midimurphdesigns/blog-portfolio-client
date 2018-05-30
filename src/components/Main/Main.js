@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { Route, withRouter } from 'react-router-dom';
 
 import './Main.css';
-import Onboard from '../Onboard/Onboard';
 import AboutMe from '../AboutMe/AboutMe';
 import Portfolio from '../Portfolio/Portfolio';
 import Resources from '../Resources/Resources';
