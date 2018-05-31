@@ -5,15 +5,15 @@ const items = [
   {
     childKey: 0,
     image: '/assets/images/wireframe/image.png',
-    header: 'Header',
+    header: 'Musixchange',
     description: 'Description',
-    meta: 'Metadata',
+    meta: 'MongoDB, Express, React, Node',
     extra: 'Extra',
   },
   {
     childKey: 1,
     image: '/assets/images/wireframe/image.png',
-    header: 'Header',
+    header: 'Final Capstone',
     description: 'Description',
     meta: 'Metadata',
     extra: 'Extra',
@@ -21,7 +21,7 @@ const items = [
   {
     childKey: 2,
     image: '/assets/images/wireframe/image.png',
-    header: 'Header',
+    header: 'Staccato',
     description: 'Description',
     meta: 'Metadata',
     extra: 'Extra',
@@ -29,7 +29,7 @@ const items = [
   {
     childKey: 3,
     image: '/assets/images/wireframe/image.png',
-    header: 'Header',
+    header: 'Noteful',
     description: 'Description',
     meta: 'Metadata',
     extra: 'Extra',
@@ -37,7 +37,7 @@ const items = [
   {
     childKey: 4,
     image: '/assets/images/wireframe/image.png',
-    header: 'Header',
+    header: 'Bookmark App',
     description: 'Description',
     meta: 'Metadata',
     extra: 'Extra',

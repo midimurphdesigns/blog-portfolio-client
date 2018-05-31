@@ -8,10 +8,20 @@
   border-bottom: 2px solid black;
   width: 300px;
   margin: auto;
+  margin-bottom: 50px;
   padding: 20px;
 }
 
-.project-container {
+.items-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  /* text-align: center;
+  width: 100%;
+  margin: auto; */
+}
+
+/* .project-container {
   border-bottom: 2px solid black;
   padding: 60px;
   width: 85%;
@@ -36,7 +46,7 @@
   width: 75%;
   margin: auto;
   font-size: 20px;
-}
+} */
 
 @media only screen and (max-width: 1100px) {
 

@@ -11,9 +11,14 @@ export default function Portfolio(props) {
     <div>
       <TopBar />
       <h1 className="page-title">Full Stack Apps</h1>
-      <FullStackItems />
+      <div className="items-container">
+        <FullStackItems />
+      </div>
+
       <h1 className="page-title">WordPress Development</h1>
-      <WordPressItems />
+      <div className="items-container">
+        <WordPressItems />
+      </div>
     </div>
   )
 }

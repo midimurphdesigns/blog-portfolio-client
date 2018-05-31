@@ -5,7 +5,7 @@ const items = [
   {
     childKey: 0,
     image: '/assets/images/wireframe/image.png',
-    header: 'Header',
+    header: 'Smithsonian Institution',
     description: 'Description',
     meta: 'Metadata',
     extra: 'Extra',
@@ -13,7 +13,7 @@ const items = [
   {
     childKey: 1,
     image: '/assets/images/wireframe/image.png',
-    header: 'Header',
+    header: 'IPRA Foundation',
     description: 'Description',
     meta: 'Metadata',
     extra: 'Extra',
@@ -21,7 +21,7 @@ const items = [
   {
     childKey: 2,
     image: '/assets/images/wireframe/image.png',
-    header: 'Header',
+    header: 'Herndon Friends Meeting',
     description: 'Description',
     meta: 'Metadata',
     extra: 'Extra',
@@ -29,7 +29,7 @@ const items = [
   {
     childKey: 3,
     image: '/assets/images/wireframe/image.png',
-    header: 'Header',
+    header: 'Nation Analytics',
     description: 'Description',
     meta: 'Metadata',
     extra: 'Extra',
