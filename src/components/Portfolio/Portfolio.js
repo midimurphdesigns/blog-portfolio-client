@@ -3,14 +3,17 @@ import 'semantic-ui-css/semantic.min.css';
 
 import './Portfolio.css';
 import TopBar from '../TopBar/TopBar';
-import Items from './Items'
+import FullStackItems from './FullStackItems'
+import WordPressItems from './WordPressItems'
 
 export default function Portfolio(props) {
   return (
     <div>
       <TopBar />
       <h1 className="page-title">Full Stack Apps</h1>
-      <Items />
+      <FullStackItems />
+      <h1 className="page-title">WordPress Development</h1>
+      <WordPressItems />
     </div>
   )
 }

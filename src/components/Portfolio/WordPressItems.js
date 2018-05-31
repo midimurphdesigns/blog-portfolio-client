@@ -18,6 +18,22 @@ const items = [
     meta: 'Metadata',
     extra: 'Extra',
   },
+  {
+    childKey: 2,
+    image: '/assets/images/wireframe/image.png',
+    header: 'Header',
+    description: 'Description',
+    meta: 'Metadata',
+    extra: 'Extra',
+  },
+  {
+    childKey: 3,
+    image: '/assets/images/wireframe/image.png',
+    header: 'Header',
+    description: 'Description',
+    meta: 'Metadata',
+    extra: 'Extra',
+  },
 ]
 
 const ItemExampleProps = () => (
