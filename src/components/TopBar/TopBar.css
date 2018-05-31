@@ -1,0 +1,35 @@
+.topbar-container {
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  font-size: 22px;
+  background-color: #ffc83f;
+}
+
+.topbar-container a {
+  margin-right: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #1d508d;
+  font-weight: 600;
+}
+
+.topbar-container a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1100px) {
+  .topbar-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    line-height: 2em;
+  }
+  .email {
+    font-size: 16px;
+  }
+  .divider {
+    display: none;
+  }
+}
