@@ -1,24 +1,26 @@
 .portfolio-page-container {
-  background-color: #47a899;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #288ad6;
   color: #142b44;
 }
 
 .page-title {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
+  font-size: 40px;
   border-bottom: 2px solid black;
-  width: 300px;
+  width: 600px;
   margin: auto;
   margin-bottom: 50px;
   padding: 20px;
 }
 
 .items-container {
-  display: flex;
-  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 50px;
-  /* text-align: center;
-  width: 100%;
-  margin: auto; */
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
 }
 
 /* .project-container {

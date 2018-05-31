@@ -8,7 +8,7 @@ import WordPressItems from './WordPressItems'
 
 export default function Portfolio(props) {
   return (
-    <div>
+    <div className="portfolio-page-container">
       <TopBar />
       <h1 className="page-title">Full Stack Apps</h1>
       <div className="items-container">
