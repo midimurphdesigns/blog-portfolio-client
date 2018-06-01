@@ -5,7 +5,7 @@ import './TopBar.css'
 export default function TopBar(props) {
   return (
     <div className="topbar-container">
-      <a href="https://docs.google.com/document/d/1gvYmxE5GjbhyqN5U6rY4g5CVAbhlM-sHtN7g3hO2UaA/edit?usp=sharing" target="_blank">Resume</a>
+      <a href="https://drive.google.com/file/d/1thjJUuRhQTSGyIjoSwwyq2Ojesxn8p-C/view?usp=sharing" target="_blank">Resume</a>
       <a className="divider"> | </a>
       <a href="https://www.linkedin.com/in/midimurphdesigns/" target="_blank">LinkedIn</a>
       <a className="divider"> | </a>

@@ -8,7 +8,7 @@ export default function SectionTwo(props) {
 
         <div className="sec-left col-4">
           <div className="label-tile-sec2">
-            <span>Skills</span>
+            <span>I can...</span>
           </div>
         </div>
 
@@ -18,7 +18,7 @@ export default function SectionTwo(props) {
               <li>Manage data flow with React</li>
               <li>Manage state with Redux</li>
               <li>Create RESTful APIs</li>
-              <li>SQL and noSQL databases</li>
+              <li>Make SQL and noSQL databases</li>
             </ul>
           </div>
           <div className="skills-list">

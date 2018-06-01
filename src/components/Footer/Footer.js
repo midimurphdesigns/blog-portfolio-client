@@ -12,7 +12,7 @@ export default function Footer(props) {
             </div>
 
             <div className="text-container">
-                <span className="footer-text">Kevin Murphy</span>
+                <span className="footer-text-top">Kevin Murphy</span>
                 <label className="footer-text">Full stack web developer</label>
             </div>
 

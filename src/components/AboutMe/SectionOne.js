@@ -14,13 +14,9 @@ export default function SectionOne(props) {
           </div>
         </div>
         <div className="sec-right col-4">
-          <div className="label-tile">
-            <span>MERN</span>
-            <span>Stack</span>
-          </div>
+          <img src={require('../../images/headshot.jpg')} alt="Headshot of Kevin Murphy" className="headshot"/>
         </div>
       </div>
-
     </section>
   )
 }
