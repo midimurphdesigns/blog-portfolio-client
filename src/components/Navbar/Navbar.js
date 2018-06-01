@@ -11,7 +11,6 @@ export default class Navbar extends React.Component {
       <div className="nav">
         <div className="logo-container">
           <label className="logo-text-top"><Link to="/">Kevin Murphy</Link></label>
-          {/* <label className="logo-text-bottom"><Link to="/">A personal portfolio and web dev blog</Link></label> */}
         </div>
 
         <label htmlFor="toggle" className="hamburger">&#9776;</label>

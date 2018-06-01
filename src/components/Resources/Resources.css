@@ -1,6 +1,4 @@
 .page-container {
-  background-color: #288ad6;
-  color: #142b44;
 }
 
 .resources-page-title {
@@ -28,7 +26,6 @@
 .category ul, .category a {
   list-style-type: none;
   text-decoration: none;
-  color: black;
   font-size: 20px;
 }
 

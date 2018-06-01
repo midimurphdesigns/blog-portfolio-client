@@ -3,24 +3,18 @@
 }
 
 .sec1 {
-  background-color: #1d508d;
-  color: #ffc83f;
   height: 850px;
   padding: 25px;
   padding-top: 7%;
 }
 
 .sec2 {
-  background-color: #ffc83f;
-  color: #1d508d;
   height: 850px;
   padding: 25px;
   padding-top: 8%;
 }
 
 .sec3 {
-  background-color: #47a899;
-  color: #2c3643;
   height: 850px;
   padding: 25px;
 }
@@ -42,7 +36,6 @@
   justify-content: center;
   font-size: 65px;
   font-weight: 700;
-  border-bottom: 5px solid #ffc83f;
   width: 80%;
   margin: auto;
   margin-top: 100px;
@@ -58,17 +51,14 @@
 }
 
 .lighten {
-  color: #ffc83f;
 }
 
 .label-tile {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #1d508d;
   font-size: 90px;
   font-weight: 500;
-  border: 5px solid #ffc83f;
   border-radius: 10px;
   padding: 50px;
   margin: auto;
@@ -80,11 +70,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #ffc83f;
   font-size: 90px;
   font-weight: 500;
-  color: #1d508d;
-  border: 5px solid #1d508d;
   border-radius: 10px;
   padding: 50px;
   margin: auto;
@@ -95,11 +82,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #47a899;
   font-size: 90px;
   font-weight: 500;
-  color: #2c3643;
-  border: 5px solid #2c3643;
   border-radius: 10px;
   padding: 50px;
   margin: auto;
@@ -111,7 +95,6 @@
   margin: auto;
   font-size: 40px;
   line-height: 2em;
-  color: #1d508d;
   padding-top: 40px;
 }
 

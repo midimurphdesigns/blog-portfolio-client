@@ -7,9 +7,7 @@
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  background-color: #1d508d;
   font-size: 20px;
-  /* border-top: 2px solid black; */
 }
 
 .footer-text {
@@ -17,7 +15,6 @@
   font-size: 30px;
   font-weight: 700;
   line-height: 1em;
-  color: #ffc83f;
 }
 
 .text-container {
@@ -35,7 +32,6 @@
 
 .footer-navigation-text {
   font-family: 'Montserrat', sans-serif;
-  color: #ffc83f;
   text-decoration: none;
   padding: 20px;
 }

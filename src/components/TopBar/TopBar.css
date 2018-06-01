@@ -1,15 +1,15 @@
 .topbar-container {
   font-family: 'Montserrat', sans-serif;
   padding: 15px;
-  font-size: 22px;
-  background-color: #ffc83f;
+  font-size: 18px;
+  border-bottom: 2px solid black;
 }
 
 .topbar-container a {
+  color: black;
   margin-right: 15px;
   margin-left: 15px;
   text-decoration: none;
-  color: #1d508d;
   font-weight: 600;
 }
 
