@@ -8,7 +8,7 @@ const items = [
     header: 'Smithsonian Institution',
     description: 'After graduating from UVM, I used my anthropology BA to land an internship at the Smithsonian Institution in Washington, DC. I worked on three of their websites, which were the first websites I\'ve ever worked on. This was my intro to web development.',
     meta: 'WordPress, website maintenance, responsive design',
-    extra: 'https://folklife.si.edu/',
+    extra: 'https://folklife.si.edu/ | https://folkways.si.edu/ | https://festival.si.edu/',
   },
   {
     childKey: 1,
