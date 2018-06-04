@@ -6,8 +6,24 @@ export default function Resources(props) {
   return (
     <div className="page-container">
       <h1 className="resources-page-title">Web Development Resources</h1>
-      <div className="row">
-        <div className="category col-4">
+      <h2 className="resources-page-subtitle">A personally curated list of articles, books, tutorials, and more</h2>
+      <div className="index">
+        <label className="index-title">Index:</label>
+        <ul className="index-list">
+          <li><a href="">General Web Development</a></li>
+          <li><a href="">General JavaScript</a></li>
+          <li><a href="">React JS</a></li>
+          <li><a href="">HTML/CSS</a></li>
+          <li><a href="">Node JS</a></li>
+          <li><a href="">MongoDB</a></li>
+          <li><a href="">PostgreSQL</a></li>
+          <li><a href="">Design & UX</a></li>
+          <li><a href="">Color</a></li>
+        </ul>
+      </div>
+      
+      <div className="">
+        <div className="category">
           <h3 className="category-title">General Web Development</h3>
           <ul>
             <li><a href="https://www.keycdn.com/blog/web-development-tools/" target="_blank">100+ Web Development Tools</a></li>
@@ -22,7 +38,7 @@ export default function Resources(props) {
             <li><a href="https://www.bypeople.com/" target="_blank">ByPeople - Tons of freebies and articles</a></li>
           </ul>
         </div>
-        <div className="category col-4">
+        <div className="category">
           <h3 className="category-title">General JavaScript</h3>
           <ul>
             <li><a href="https://medium.com/javascript-scene/12-books-every-javascript-developer-should-read-9da76157fb3" target="_blank">12 Books every JavaScript developer should read</a></li>
@@ -37,7 +53,7 @@ export default function Resources(props) {
             <li><a href="http://exploringjs.com/es6/" target="_blank">Exploring ES6 - A book on ES6</a></li>
           </ul>
         </div>
-        <div className="category col-4">
+        <div className="category">
           <h3 className="category-title">React JS</h3>
           <ul>
             <li><a href="https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b" target="_blank">React JS video tutorials on youtube</a></li>
@@ -54,12 +70,8 @@ export default function Resources(props) {
         </div>
       </div>
 
-      {/* ===== */}
-      {/* ROW 2 */}
-      {/* ===== */}
-
-      <div className="row">
-        <div className="category col-4">
+      <div className="">
+        <div className="category">
           <h3 className="category-title">HTML/CSS</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
@@ -74,7 +86,7 @@ export default function Resources(props) {
             <li><a href="" target="_blank">article title</a></li>
           </ul>
         </div>
-        <div className="category col-4">
+        <div className="category">
           <h3 className="category-title">Node JS/Express</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
@@ -89,7 +101,7 @@ export default function Resources(props) {
             <li><a href="" target="_blank">article title</a></li>
           </ul>
         </div>
-        <div className="category col-4">
+        <div className="category">
           <h3 className="category-title">MongoDB</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
@@ -106,13 +118,9 @@ export default function Resources(props) {
         </div>
       </div>
 
-      {/* ===== */}
-      {/* ROW 3 */}
-      {/* ===== */}
-
-      <div className="row">
-        <div className="category col-4">
-          <h3 className="category-title">SQL</h3>
+      <div className="">
+        <div className="category">
+          <h3 className="category-title">PostgreSQL</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
             <li><a href="" target="_blank">article title</a></li>
@@ -126,7 +134,7 @@ export default function Resources(props) {
             <li><a href="" target="_blank">article title</a></li>
           </ul>
         </div>
-        <div className="category col-4">
+        <div className="category">
           <h3 className="category-title">Design & UX</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
@@ -141,7 +149,7 @@ export default function Resources(props) {
             <li><a href="" target="_blank">article title</a></li>
           </ul>
         </div>
-        <div className="category col-4">
+        <div className="category">
           <h3 className="category-title">Color</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
