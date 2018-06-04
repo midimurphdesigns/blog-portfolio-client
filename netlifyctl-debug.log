@@ -1,0 +1,14 @@
+time="03 Jun 18 21:34 -0700" level=debug msg=PreRun arguments=[] command=deploy 
+time="03 Jun 18 21:34 -0700" level=debug msg="configure debug middleware" 
+time="03 Jun 18 21:34 -0700" level=debug msg="configure logging middleware" 
+time="03 Jun 18 21:34 -0700" level=debug msg="setup logger middleware: panic" 
+time="03 Jun 18 21:34 -0700" level=debug msg="configure auth middleware" 
+time="03 Jun 18 21:34 -0700" level=debug msg="setup credentials" credentials=0x879c70 
+time="03 Jun 18 21:34 -0700" level=debug msg="configure client middleware" 
+time="03 Jun 18 21:34 -0700" level=debug msg="setup API endpoint" endpoint="https://api.netlify.com" 
+time="03 Jun 18 21:34 -0700" level=debug msg="configure site middleware" 
+time="03 Jun 18 21:34 -0700" level=debug msg="Parsed configuration: {Settings:{ID:41591ab0-476c-4b65-af44-e85ba634b2db Path:} Build:{Publish: Functions:} Redirects:[] root:C:\\Users\\Kevin Murphy\\Desktop\\Projects\\blog-portfolio-app\\client}" 
+time="03 Jun 18 21:35 -0700" level=debug msg="Got new path from the user " 
+time="03 Jun 18 21:35 -0700" level=debug msg="Relative path detected, going to deploy: 'C:\\Users\\Kevin Murphy\\Desktop\\Projects\\blog-portfolio-app\\client\\go get -d github.com\\netlify\\netlifyctl'" 
+time="03 Jun 18 21:35 -0700" level=debug msg="deploying site" draft=false path="C:\\Users\\Kevin Murphy\\Desktop\\Projects\\blog-portfolio-app\\client\\go get -d github.com\\netlify\\netlifyctl" site=41591ab0-476c-4b65-af44-e85ba634b2db 
+time="03 Jun 18 21:35 -0700" level=error msg="command failed" error="CreateFile C:\\Users\\Kevin Murphy\\Desktop\\Projects\\blog-portfolio-app\\client\\go get -d github.com\\netlify\\netlifyctl: The system cannot find the path specified." 
