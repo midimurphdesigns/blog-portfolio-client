@@ -1,0 +1,59 @@
+.portfolio-page-container {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 2px solid black;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.items-container {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+  font-size: 20px;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+/* .project-container {
+  border-bottom: 2px solid black;
+  padding: 60px;
+  width: 85%;
+}
+
+.project-label,
+.project-description {
+  display: flex;
+  justify-content: center;
+}
+
+.project-label {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 200px;
+  padding: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.project-description {
+  width: 75%;
+  margin: auto;
+  font-size: 20px;
+} */
+
+@media only screen and (max-width: 1100px) {
+
+  .email {
+    font-size: 16px;
+  }
+
+}
