@@ -76,3 +76,9 @@
   cursor: pointer;
 }
 
+@media only screen and (max-width: 850px) {
+  .index-list {
+    display: flex;
+    flex-direction: column;
+  }
+}

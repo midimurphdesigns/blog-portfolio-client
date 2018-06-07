@@ -67,22 +67,6 @@
   text-align: center;
 }
 
-.lighten {
-}
-
-.label-tile {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 90px;
-  font-weight: 500;
-  border-radius: 10px;
-  padding: 50px;
-  margin: auto;
-  margin-top: 120px;
-  line-height: 1em;
-}
-
 .label-tile-sec2 {
   display: flex;
   flex-direction: column;
@@ -134,14 +118,22 @@ li {
   .sec1, .sec2, .sec3, .icon-section, .topbar-container {
     display: flex;
     flex-direction: column;
+    width: 100vw;
     height: 100%;
     text-align: center;
+    border: none;
   }
 
-  .label-tile, .label-tile-sec2, .label-tile-sec3 {
+  .headshot {
     font-size: 40px;
     width: 250px;
+    height: 250px;
+    margin: auto;
     margin-top: 0;
+  }
+
+  .icon-section {
+    width: 100%;
   }
 
   .sec-left label {
