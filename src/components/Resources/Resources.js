@@ -1,11 +1,13 @@
 import React from 'react';
 
 import './Resources.css'
+import ScrollTop from '../ScrollTop/ScrollTop'
 
 export default function Resources(props) {
   return (
     <div className="page-container">
-      <h1 className="resources-page-title">Web Development Resources</h1>
+      <ScrollTop />
+      <h1 className="resources-page-title" id="header">Web Development Resources</h1>
       <h2 className="resources-page-subtitle">A personally curated list of articles, books, tutorials, and more</h2>
       <div className="index">
         {/* <label className="index-title">Index:</label> */}

@@ -6,9 +6,9 @@ const items = [
     childKey: 0,
     image: require('../../images/smithsonian-preview.png'),
     header: 'Smithsonian Institution',
-    description: 'After graduating from UVM, I used my anthropology BA to land an internship at the Smithsonian Institution in Washington, DC. I worked on three of their websites, which were the first websites I\'ve ever worked on. This was my intro to web development.',
+    description: 'I used my BA in anthropology to land an internship at the Smithsonian Institution in Washington, DC. I worked on three of their websites, which were the first websites I\'ve ever worked on.',
     meta: 'WordPress, website maintenance, responsive design',
-    extra: 'https://folklife.si.edu/ | https://folkways.si.edu/ | https://festival.si.edu/',
+    extra: <div><a href="https://folklife.si.edu/" target="_blank">https://folklife.si.edu/</a><br /><a href="https://folkways.si.edu/" target="_blank">https://folkways.si.edu/</a><br /><a href="https://festival.si.edu/" target="_blank">https://festival.si.edu/</a></div>,
   },
   {
     childKey: 1,
@@ -16,7 +16,7 @@ const items = [
     header: 'IPRA Foundation',
     description: 'The IPRA Foundation approached me with concerns about their website and asked me to create modern, responsive layouts for ~200 pages with the goal of increasing donations.',
     meta: 'WordPress, website maintenance, responsive design, donations',
-    extra: 'http://iprafoundation.org/',
+    extra: <a href="http://iprafoundation.org/" target="_blank">http://iprafoundation.org/</a>,
   },
   {
     childKey: 2,
@@ -24,7 +24,7 @@ const items = [
     header: 'Herndon Friends Meeting',
     description: 'In order to facilitate the sale of Christmas oranaments for charity I made a website and online storefront including product photography/image editing.',
     meta: 'WordPress, responsive design, e-commerce, product photography',
-    extra: 'http://hfmprojects.org/',
+    extra: <a href="http://hfmprojects.org/" target="_blank">http://hfmprojects.org/</a>,
   },
   {
     childKey: 3,
@@ -32,7 +32,7 @@ const items = [
     header: 'Nation Analytics',
     description: 'As an upcoming business analytics startup, they needed a website to become visible and accessible. I made the initial website for them. However, in the long run they went with another dev team.',
     meta: 'WordPress, website maintenance, responsive design',
-    extra: 'http://nationanalytics.com/',
+    extra: <a href="http://nationanalytics.com/" target="_blank">http://nationanalytics.com/</a>,
   },
 ]
 
