@@ -14,7 +14,7 @@ const items = [
     childKey: 1,
     image: require('../../images/ipraf-logo1.png'),
     header: 'IPRA Foundation',
-    description: 'The IPRA Foundation approached me with concerns about their website and asked me to create modern, responsive layouts for ~200 pages in order with the goal of increasing donations.',
+    description: 'The IPRA Foundation approached me with concerns about their website and asked me to create modern, responsive layouts for ~200 pages with the goal of increasing donations.',
     meta: 'WordPress, website maintenance, responsive design, donations',
     extra: 'http://iprafoundation.org/',
   },
