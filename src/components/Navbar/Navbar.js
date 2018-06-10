@@ -20,7 +20,7 @@ export default class Navbar extends React.Component {
           <Link to="/">About Me</Link>
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/resources">Resources</Link>
-          <Link to="/blog">Blog</Link>
+          {/* <Link to="/blog">Blog</Link> */}
         </div>
       </div>
     );
