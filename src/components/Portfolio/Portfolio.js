@@ -12,7 +12,6 @@ export default function Portfolio(props) {
   return (
     <div className="portfolio-page-container">
       <TopBar />
-      <ScrollTop />
       <h1 className="page-title" id="header">Full Stack Apps</h1>
       <div className="items-container">
         <FullStackItems />
