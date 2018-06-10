@@ -14,11 +14,11 @@ export default function Portfolio(props) {
       <div className="items-container">
         <FullStackItems />
       </div>
-
+ 
       <h1 className="page-title">WordPress Development</h1>
       <div className="items-container">
         <WordPressItems />
-      </div>
+      </div> 
     </div>
   )
 }
