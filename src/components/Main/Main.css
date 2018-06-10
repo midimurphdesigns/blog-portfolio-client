@@ -1,5 +1,5 @@
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   box-sizing: border-box;
 }
@@ -32,7 +32,7 @@
   width: 100%;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 1050px) {
   /* 3 columns, 3/12 in % */
   .col-3 {
     width: 25%;

@@ -1,12 +1,14 @@
-import React from 'react'
-import { Item } from 'semantic-ui-react'
+import React from 'react';
+
+import { Item } from 'semantic-ui-react';
+import './Portfolio.css';
 
 const items = [
   {
     childKey: 0,
     image: require('../../images/musixchange-preview.png'),
     header: 'Musixchange',
-    description: 'A full stack app that facilitates buying and selling of music gear. This app allowed me to combine two main passions of mine; music and web development.',
+    description: 'A full stack app that facilitates buying and selling music gear. This app allowed me to combine two main passions of mine; music and web development.',
     meta: 'React, Redux, MongoDB, Node, Express',
     extra: 'musixchange.netlify.com',
   },

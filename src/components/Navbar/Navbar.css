@@ -75,7 +75,7 @@
   }
 
   .logo-text-top a {
-      font-size: 26px;
+      /* font-size: 26px; */
   }
 
   #toggle:checked + .menu {

@@ -8,23 +8,27 @@ export default function Resources(props) {
       <h1 className="resources-page-title">Web Development Resources</h1>
       <h2 className="resources-page-subtitle">A personally curated list of articles, books, tutorials, and more</h2>
       <div className="index">
-        <label className="index-title">Index:</label>
+        {/* <label className="index-title">Index:</label> */}
         <ul className="index-list">
-          <li><a href="">General Web Development</a></li>
-          <li><a href="">General JavaScript</a></li>
-          <li><a href="">React JS</a></li>
-          <li><a href="">HTML/CSS</a></li>
-          <li><a href="">Node JS</a></li>
-          <li><a href="">MongoDB</a></li>
-          <li><a href="">PostgreSQL</a></li>
-          <li><a href="">Design & UX</a></li>
-          <li><a href="">Color</a></li>
+          <li><a href="#general-web-development">General Web Development</a></li>
+          <li><a href="#general-javascript">General JavaScript</a></li>
+          <li><a href="#react">React JS</a></li>
+        </ul>
+        <ul className="index-list">
+          <li><a href="#html-css">HTML & CSS</a></li>
+          <li><a href="#node-express">Node & Express</a></li>
+          <li><a href="#mongodb">MongoDB</a></li>
+        </ul>
+        <ul className="index-list">
+          <li><a href="#postgresql">PostgreSQL</a></li>
+          <li><a href="#design-ux">Design & UX</a></li>
+          <li><a href="#color">Color</a></li>
         </ul>
       </div>
-      
+
       <div className="">
         <div className="category">
-          <h3 className="category-title">General Web Development</h3>
+          <h3 className="category-title" id="general-web-development">General Web Development</h3>
           <ul>
             <li><a href="https://www.keycdn.com/blog/web-development-tools/" target="_blank">100+ Web Development Tools</a></li>
             <li><a href="https://webuilddesign.com/33-useful-youtube-channels-for-learning-web-design-and-development/" target="_blank">33 Useful Youtube channels for learning web design and development</a></li>
@@ -39,7 +43,7 @@ export default function Resources(props) {
           </ul>
         </div>
         <div className="category">
-          <h3 className="category-title">General JavaScript</h3>
+          <h3 className="category-title" id="general-javascript">General JavaScript</h3>
           <ul>
             <li><a href="https://medium.com/javascript-scene/12-books-every-javascript-developer-should-read-9da76157fb3" target="_blank">12 Books every JavaScript developer should read</a></li>
             <li><a href="https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e" target="_blank">How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code</a></li>
@@ -54,7 +58,7 @@ export default function Resources(props) {
           </ul>
         </div>
         <div className="category">
-          <h3 className="category-title">React JS</h3>
+          <h3 className="category-title" id="react">React JS</h3>
           <ul>
             <li><a href="https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b" target="_blank">React JS video tutorials on youtube</a></li>
             <li><a href="https://codeburst.io/how-to-not-react-common-anti-patterns-and-gotchas-in-react-40141fe0dcd" target="_blank">How to NOT React: Common Anti-Patterns and Gotchas in React</a></li>
@@ -72,7 +76,7 @@ export default function Resources(props) {
 
       <div className="">
         <div className="category">
-          <h3 className="category-title">HTML/CSS</h3>
+          <h3 className="category-title" id="html-css">HTML/CSS</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
             <li><a href="" target="_blank">article title</a></li>
@@ -87,7 +91,7 @@ export default function Resources(props) {
           </ul>
         </div>
         <div className="category">
-          <h3 className="category-title">Node JS/Express</h3>
+          <h3 className="category-title" id="node-express">Node & Express</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
             <li><a href="" target="_blank">article title</a></li>
@@ -102,7 +106,7 @@ export default function Resources(props) {
           </ul>
         </div>
         <div className="category">
-          <h3 className="category-title">MongoDB</h3>
+          <h3 className="category-title" id="mongodb">MongoDB</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
             <li><a href="" target="_blank">article title</a></li>
@@ -120,7 +124,7 @@ export default function Resources(props) {
 
       <div className="">
         <div className="category">
-          <h3 className="category-title">PostgreSQL</h3>
+          <h3 className="category-title" id="postgresql">PostgreSQL</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
             <li><a href="" target="_blank">article title</a></li>
@@ -135,7 +139,7 @@ export default function Resources(props) {
           </ul>
         </div>
         <div className="category">
-          <h3 className="category-title">Design & UX</h3>
+          <h3 className="category-title" id="design-ux">Design & UX</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
             <li><a href="" target="_blank">article title</a></li>
@@ -150,7 +154,7 @@ export default function Resources(props) {
           </ul>
         </div>
         <div className="category">
-          <h3 className="category-title">Color</h3>
+          <h3 className="category-title" id="color">Color</h3>
           <ul>
             <li><a href="" target="_blank">article title</a></li>
             <li><a href="" target="_blank">article title</a></li>
