@@ -6,50 +6,10 @@ import Helmet from "react-helmet";
 import "./index.css";
 import "../styles/layout-overide.css";
 
-import Media from "react-media";
- 
-const Header = () => (
-  <div
-    style={{
-      background: "#f5f5f5",
-      marginBottom: "3rem",
-      borderBottom: "2px solid #e6e6e6"
-    }}
-  >
-    <div
-      style={{
-        margin: "0 auto",
-        maxWidth: 980,
-        padding: "1.45rem 1.0875rem"
-      }}
-    >
-      <h1 style={{ margin: 0, textAlign: "center", fontSize: "18px" }}>
-        <Link
-          to="/"
-          style={{
-            color: "black",
-            textDecoration: "none"
-          }}
-        > 
-          CodeStack
-        </Link>
-      </h1>
-    </div>
-  </div>
-);
+import Header from '../components/Header/Header'
+import Sidebar from '../components/Sidebar/Sidebar'
 
-const Sidebar = props => (
-  <div
-    style={{
-      border: "2px solid #e6e6e6",
-      maxWidth: 960,
-      padding: "0.5rem",
-      marginBottom: "25px"
-    }}
-  >
-    <strong>{props.title}.</strong> {props.description}
-  </div>
-);
+import Media from "react-media";
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -105,12 +65,12 @@ const TemplateWrapper = ({ children }) => (
 
                 <div style={{ flex: 1 }}>
                   <Sidebar
-                    title="Codestack"
-                    description="Articles on React and Node.js. All articles are written by Emmanuel Yusufu, Fullstack Web Development."
+                    title="Blog (Under Construction)"
+                    description="Articles on modern web apps. All articles are written by Kevin Murphy, Fullstack Web Development."
                   />
                   <Sidebar
-                    title="About author"
-                    description="Emmanuel Yusufu is a Full-stack Web Developer specializing in React and Node.js based in Nigeria."
+                    title="Author"
+                    description="Kevin Murphy is a Full-stack Web Developer specializing in React and Node.js based in Paradise Valley, AZ."
                   />
                 </div>
               </div>
