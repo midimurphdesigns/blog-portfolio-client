@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { connect } from 'react-redux';
 
 import './Navbar.css';
 
@@ -20,7 +19,7 @@ export default class Navbar extends React.Component {
           <Link to="/">About Me</Link>
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/resources">Resources</Link>
-          <a href="blog.kevinmurphywebdev.com">Blog</a>
+          <a href="//blog.kevinmurphywebdev.com">Blog</a>
         </div>
       </div>
     );
