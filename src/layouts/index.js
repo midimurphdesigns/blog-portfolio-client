@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
 import "./index.css";
@@ -8,6 +7,7 @@ import "../styles/layout-overide.css";
 
 import Header from '../components/Header/Header'
 import Sidebar from '../components/Sidebar/Sidebar'
+import Footer from '../components/Footer/Footer'
 
 import Media from "react-media";
 
@@ -78,6 +78,7 @@ const TemplateWrapper = ({ children }) => (
         }
       </Media>
     </div>
+    <Footer />
   </div>
 );
 

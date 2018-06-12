@@ -1,12 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import './Header.css'
 
 const Header = () => (
   <div className="nav">
     <div className="logo-container">
-      <label className="logo-text-top"><Link to="//kevinmurphywebdev.com">Kevin Murphy</Link></label>
+      <label className="logo-text-top"><a href="//kevinmurphywebdev.com">Kevin Murphy</a></label>
     </div>
 
     <label htmlFor="toggle" className="hamburger">&#9776;</label>
