@@ -17,7 +17,7 @@ const Header = () => (
       <a href="//kevinmurphywebdev.com/resources">Resources</a>
       <a href="/">Blog</a>
     </div>
-  </div>
+  </div> 
 );
 
 export default Header
