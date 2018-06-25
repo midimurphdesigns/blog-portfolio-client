@@ -1,4 +1,9 @@
 .page-container {
+  background: 
+  linear-gradient(
+  rgba(207, 232, 253, 1), 
+  rgba(232, 244, 254, 1)
+  );
 }
 
 .resources-page-title {
@@ -48,9 +53,14 @@
 }
 
 .index-list li {
+  background-color: #e8f4fe;
   border: 2px solid black;
   border-radius: 8px;
   margin: 10px 20px;
+}
+
+.index-list a {
+  color: black;
 }
 
 .index-list a:hover {
@@ -79,6 +89,7 @@
   text-decoration: none;
   font-size: 20px;
   line-height: 1.1em;
+  color: black;
 }
 
 .category li {

@@ -7,8 +7,9 @@
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  border-top: 2px solid black;
   font-size: 20px;
+  /* border-top: 2px solid black; */
+  background-color: #e8f4fe;
 }
 
 .footer-text {
@@ -19,6 +20,7 @@
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
+  color: black;
 }
 
 .footer-text-top {
@@ -26,6 +28,7 @@
   font-size: 50px;
   font-weight: 500;
   line-height: 2em;
+  color: black;
 }
 
 .text-container {

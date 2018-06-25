@@ -2,24 +2,43 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.vertical-align {
+  display: flex;
+  vertical-align: middle;
+}
+
 .sec1 {
   height: 650px;
+  width: 100%;
   padding: 25px;
   padding-top: 5%;
-  border-bottom: 2px solid black;
+  /* border-bottom: 2px solid black; */
+  background: 
+  linear-gradient(
+  rgba(207, 232, 253, 1), 
+  rgba(232, 244, 254, 1)
+  );
 }
 
 .sec2 {
-  height: 600px;
-  padding: 25px;
-  padding-top: 3%;
-  border-bottom: 2px solid black;
+  height: 450px;
+  width: 100%;
+  /* border-bottom: 2px solid black; */
+  background: 
+  linear-gradient(
+  rgba(207, 232, 253, 1), 
+  rgba(232, 244, 254, 1)
+  );
 }
 
 .sec3 {
-  height: 600px;
-  max-height: 450px;
+  height: 450px;
   padding: 25px;
+  background: 
+  linear-gradient(
+  rgba(207, 232, 253, 1), 
+  rgba(232, 244, 254, 1)
+  );
 }
 
 .sec-left, .sec-right {
@@ -37,6 +56,7 @@
 .about-label {
   display: flex;
   justify-content: center;
+  color: black;
   border-bottom: 2px solid black;
   font-size: 45px;
   font-weight: 700;
@@ -52,27 +72,30 @@
   justify-content: space-around;
   font-size: 125px;
   margin-top: 75px;
+  color: black;
 }
 
 .headshot {
   width: 337px;
   height: 293px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 10px;
   margin: auto;
   margin-top: 85px;
+  opacity: .9;
 }
 
 .img-description {
   font-size: 16px;
   text-align: center;
+  color: black;
 }
 
 .label-tile-sec2 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   font-size: 90px;
   font-weight: 500;
   line-height: 1em;
@@ -80,19 +103,21 @@
   padding: 50px;
   margin: auto;
   margin-top: 25%;
+  /* background-color: #cfddea; */
 }
 
 .label-tile-sec3 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   font-size: 90px;
   font-weight: 500;
   border-radius: 10px;
   padding: 50px;
   margin: auto;
   margin-top: 120px;
+  /* background-color: #cfddea; */
 }
 
 .skills-list {
