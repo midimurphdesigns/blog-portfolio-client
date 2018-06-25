@@ -16,7 +16,7 @@ export default class Navbar extends React.Component {
         <input type="checkbox" id="toggle" />
 
         <div className="menu">
-          <Link to="/">About Me</Link>
+          {/* <Link to="/">About Me</Link> */}
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/resources">Resources</Link>
           <a href="//blog.kevinmurphywebdev.com">Blog</a>
