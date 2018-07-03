@@ -11,13 +11,27 @@ export class SideDrawer extends React.Component {
       drawerClasses = "side-drawer open";
     }
 
-    console.log(this.props.show)
+    console.log(this.props.show);
 
     return (
       <nav className={drawerClasses}>
         <ul className="mobile-navigation-items">
           <li>
-            <Link to="/portfolio">portfolio</Link>
+            <Link className="logo-sidedrawer" to="/">Kevin Murphy</Link>
+          </li>
+          <li>
+            <Link to="/">About Me</Link>
+          </li>
+          <li>
+            <Link to="/portfolio">Portfolio</Link>
+          </li>
+          <li>
+            <Link to="/resources">Resources</Link>
+          </li>
+          <li>
+            <a href="blog.kevinmurphywebdev.com" target="_blank">
+              Blog
+            </a>
           </li>
         </ul>
       </nav>

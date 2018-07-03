@@ -12,10 +12,12 @@
   transition: transform 0.3s ease-out;
 }
 
-.logout-button-mobile {
-  width: 75%;
-  margin: auto;
-  float: left;
+.logo-sidedrawer {
+  font-family: 'Pacifico', cursive;
+  font-size: 32px!important;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
 }
 
 .side-drawer.open {

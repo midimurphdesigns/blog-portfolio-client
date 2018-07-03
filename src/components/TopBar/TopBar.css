@@ -16,7 +16,7 @@
 
 .topbar-container a:hover {
   cursor: pointer;
-  text-decoration: underline;
+  color:#BDE1FC;
 }
 
 .divider {
