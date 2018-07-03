@@ -1,27 +1,46 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 
-import './Navbar.css';
+import DrawerToggleButton from "./DrawerToggleButton";
+import "./Navbar.css";
 
-export default class Navbar extends React.Component {
-
+export class Navbar extends React.Component {
   render() {
     return (
-      <div className="nav">
-        <div className="logo-container">
-          <label className="logo-text-top"><Link to="/">Kevin Murphy</Link></label>
-        </div>
-
-        <label htmlFor="toggle" className="hamburger">&#9776;</label>
-        <input type="checkbox" id="toggle" />
-
-        <div className="menu">
-          <Link to="/">About Me</Link>
-          <Link to="/portfolio">Portfolio</Link>
-          <Link to="/resources">Resources</Link>
-          <a href="//blog.kevinmurphywebdev.com">Blog</a>
-        </div>
-      </div>
+      <header className="navbar">
+        <nav className="navigation">
+          <div className="spacer-half" />
+          <div className="logo">
+            <Link className="logo" to="/">
+              Kevin Murphy
+            </Link>
+          </div>
+          <div className="spacer" />
+          <div className="toggle-button">
+            <DrawerToggleButton />
+          </div>
+          <div className="spacer-half" />
+          <div className="navigation-items">
+            <ul>
+              <li>
+                <Link to="/">About Me</Link>
+              </li>
+              <li>
+                <Link to="/portfolio">Portfolio</Link>
+              </li>
+              <li>
+                <Link to="/resources">Resources</Link>
+              </li>
+              <li>
+                <a href="//blog.kevinmurphywebdev.com">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
     );
   }
 }
+
+export default connect()(Navbar);

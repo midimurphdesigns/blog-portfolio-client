@@ -1,84 +1,88 @@
-* {
-  box-sizing: border-box;
-}
-
-.nav {
-  font-family: 'Montserrat', sans-serif;
-  text-align: right;
-  height: 100px;
-  line-height: 100px;
-  background-color: #42a6f8;
-  /* border-bottom: 2px solid black; */
-}
-
-.menu {
-  margin: 0 20px 0 0;
-}
-
-.menu a {
-  color: white;
-  clear: right;
-  text-decoration: none;
-  margin: 0 20px;
-  line-height: 70px;
-  font-size: 22px;
-  font-weight: 700;
-}
-
-.menu a:hover {
-  /* text-shadow: 1px 1px 1px #dbe6ec; */
-  font-weight: 900px;
-  text-decoration: underline;
-}
-
-.logo-container, .logo-text-top a {
+.navbar, .navbar ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.navbar {
+  display: flex;
+  border-bottom: 1px solid #3a3f44;
+  box-shadow: 0px 3px 15px -2px rgba(0,0,0,0.75);
+  background-color: #42A4F8;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  left: 0;
+  /* z-index: 50; */
+  /* color: #000; */
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+
+.logo {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
   color: white;
-  font-family: 'Pacifico', sans-serif;
-  float: left;
-  letter-spacing: 2px;
-  font-size: 40px;
-  margin-left: 20px;
-  font-weight: 500;
+  font-weight: 900;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.spacer-half {
+  flex: 0.5;
+}
+
+.navigation-items {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation-items li {
+  margin-right: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0 0.5rem;
+}
+
+.navigation-items a {
+  font-size: 1.2rem;
+  color: white;
   text-decoration: none;
 }
 
-.hamburger {
-  margin: 0 40px 0 0;
-  font-size: 36px;
-  line-height: 90px;
-  display: none;
-  width: 40px;
-  float: right;
-}
-
-#toggle {
-  display: none;
+.navigation-items a:hover,
+.navigation-items a:active {
+  color:#BDE1FC;
 }
 
 @media only screen and (max-width: 850px) {
-  .hamburger {
-      display: block;
-      cursor: pointer;
-  }
-
-  .menu {
-      text-align: center;
-      width: 100%;
+  .navigation-items {
       display: none;
   }
+}
 
-  .menu a {
-      display: block;
-      border-bottom: 1px solid #061826;
-      margin: 0;
+@media only screen and (min-width: 851px) {
+  .toggle-button {
+      display: none;
   }
-
-  #toggle:checked + .menu {
-      display: flex;
-      flex-direction: column;
-      background-color: whitesmoke;
-      position: sticky;
+  .spacer-half {
+      display: none;
   }
 }
