@@ -22,7 +22,7 @@ const items = [
     childKey: 2,
     image: require('../../images/hfm-preview.png'),
     header: 'Herndon Friends Meeting',
-    description: 'In order to facilitate the sale of Christmas oranaments for charity I made a website and online storefront including product photography/image editing.',
+    description: 'In order to facilitate the sale of Christmas ornaments for charity I made a website and online storefront including product photography/image editing.',
     meta: 'WordPress, responsive design, e-commerce, product photography',
     extra: <a href="http://hfmprojects.org/" target="_blank">http://hfmprojects.org/</a>,
   },
