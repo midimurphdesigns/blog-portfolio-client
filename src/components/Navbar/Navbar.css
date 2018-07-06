@@ -33,6 +33,10 @@
   font-weight: 900;
 }
 
+.logo:hover {
+  color: white;
+}
+
 .spacer {
   flex: 1;
 }

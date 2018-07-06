@@ -1,14 +1,10 @@
 .portfolio-page-container {
-  font-family: 'Open Sans', sans-serif;
-  background: 
-  linear-gradient(
-  rgba(207, 232, 253, 1), 
-  rgba(232, 244, 254, 1)
-  );
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 1));
 }
 
 .page-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   font-size: 40px;
   width: 60%;
@@ -19,7 +15,7 @@
 }
 
 .items-container {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 50px;
   font-size: 20px;
   width: 60%;
@@ -27,8 +23,12 @@
   padding-bottom: 100px;
 }
 
-.ui.items>.item {
-  font-family: 'Open Sans', sans-serif;
+.header {
+  line-height: 1em;
+}
+
+.ui.items > .item {
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 50px;
   padding: 20px;
   border: 2px solid black;
@@ -36,22 +36,22 @@
   background-color: #f8f9fa;
 }
 
-.ui.items>.item>.content>.header {
-  font-family: 'Open Sans', sans-serif;
+.ui.items > .item > .content > .header {
+  font-family: "Open Sans", sans-serif;
 }
 
-.ui.items>.item>.content>.description {
-  font-family: 'Montserrat', sans-serif;
+.ui.items > .item > .content > .description {
+  font-family: "Montserrat", sans-serif;
   text-align: justify;
   margin: 30px 0px;
 }
 
-.ui.items>.item>.content a:not(.ui) {
+.ui.items > .item > .content a:not(.ui) {
   line-height: 1.5em;
   color: black;
 }
 
-.ui.items>.item>.content a:not(.ui):hover {
+.ui.items > .item > .content a:not(.ui):hover {
   text-decoration: underline;
 }
 
@@ -59,10 +59,21 @@
   .email {
     font-size: 16px;
   }
-  .ui.items>.item>.content>.description {
+  .ui.items > .item > .content > .description {
     text-align: justify;
   }
-  .items-container, .page-title {
+  .items-container,
+  .page-title {
     width: 85%;
+  }
+  .ui.items > .item > .content a:not(.ui) {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .ui.items > .item > .content > .header:not(.ui) {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
   }
 }
