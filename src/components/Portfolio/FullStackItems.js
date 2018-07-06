@@ -36,14 +36,14 @@ const items = [
     meta: 'MongoDB, PostgreSQL, Node, Express, Jquery, HTML, CSS',
     extra: <a href="https://kevin-noteful-v4.herokuapp.com/" target="_blank">https://kevin-noteful-v4.herokuapp.com/</a>,
   },
-  {
-    childKey: 4,
-    image: require('../../images/petful-preview.png'),
-    header: 'Petful',
-    description: 'An app using a algorithm to set up a queue based data structure allowing you to adopt animals from a shelter.',
-    meta: 'MongoDB, React, Node, Express, CSS',
-    extra: <a href="https://petful-kj.netlify.com/" target="_blank">https://petful-kj.netlify.com/</a>,
-  },
+  // {
+  //   childKey: 4,
+  //   image: require('../../images/petful-preview.png'),
+  //   header: 'Petful',
+  //   description: 'An app using a algorithm to set up a queue based data structure allowing you to adopt animals from a shelter.',
+  //   meta: 'MongoDB, React, Node, Express, CSS',
+  //   extra: <a href="https://petful-kj.netlify.com/" target="_blank">https://petful-kj.netlify.com/</a>,
+  // },
 ]
 
 const ItemExampleProps = () => (
