@@ -16,7 +16,6 @@ import "./Main.css";
 export class Main extends React.Component {
   
   render() {
-    console.log('this is the props', this.props);
     if (this.props.sideDrawerOpen) {
       return (
         <div className="page-container">
@@ -54,7 +53,7 @@ export class Main extends React.Component {
   }
 }
 
-const mapStateToProps = state => (console.log('this is the state', state),{
+const mapStateToProps = state => ({
   sideDrawerOpen: state.sideDrawerOpen
 });
 
