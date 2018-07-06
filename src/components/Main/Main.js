@@ -9,7 +9,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import SideDrawer from "../Navbar/SideDrawer";
 import Backdrop from "../Navbar/Backdrop";
-import Meta from "./Meta";
+// import Meta from "./Meta";
 
 import "./Main.css";
 

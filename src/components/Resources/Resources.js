@@ -1,7 +1,7 @@
 import React from "react";
 
 import ScrollTop from "../ScrollTop/ScrollTop";
-import TopBar from '../TopBar/TopBar';
+import TopBar from "../TopBar/TopBar";
 import "./Resources.css";
 
 export default function Resources(props) {
@@ -19,35 +19,53 @@ export default function Resources(props) {
         {/* <label className="index-title">Index:</label> */}
         <ul className="index-list">
           <li>
-            <a href="#general-web-development">General Web Development</a>
+            <a rel="noopener noreferrer" href="#general-web-development">
+              General Web Development
+            </a>
           </li>
           <li>
-            <a href="#general-javascript">General JavaScript</a>
+            <a rel="noopener noreferrer" href="#general-javascript">
+              General JavaScript
+            </a>
           </li>
           <li>
-            <a href="#react">React JS</a>
-          </li>
-        </ul>
-        <ul className="index-list">
-          <li>
-            <a href="#html-css">HTML & CSS</a>
-          </li>
-          <li>
-            <a href="#node-express">Node & Express</a>
-          </li>
-          <li>
-            <a href="#mongodb">MongoDB</a>
+            <a rel="noopener noreferrer" href="#react">
+              React JS
+            </a>
           </li>
         </ul>
         <ul className="index-list">
           <li>
-            <a href="#postgresql">PostgreSQL</a>
+            <a rel="noopener noreferrer" href="#html-css">
+              HTML & CSS
+            </a>
           </li>
           <li>
-            <a href="#design-ux">Design & UX</a>
+            <a rel="noopener noreferrer" href="#node-express">
+              Node & Express
+            </a>
           </li>
           <li>
-            <a href="#color">Color</a>
+            <a rel="noopener noreferrer" href="#mongodb">
+              MongoDB
+            </a>
+          </li>
+        </ul>
+        <ul className="index-list">
+          <li>
+            <a rel="noopener noreferrer" href="#postgresql">
+              PostgreSQL
+            </a>
+          </li>
+          <li>
+            <a rel="noopener noreferrer" href="#design-ux">
+              Design & UX
+            </a>
+          </li>
+          <li>
+            <a rel="noopener noreferrer" href="#color">
+              Color
+            </a>
           </li>
         </ul>
       </div>
@@ -60,6 +78,7 @@ export default function Resources(props) {
           <ul>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.keycdn.com/blog/web-development-tools/"
                 target="_blank"
               >
@@ -68,6 +87,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://webuilddesign.com/33-useful-youtube-channels-for-learning-web-design-and-development/"
                 target="_blank"
               >
@@ -77,6 +97,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://designmodo.com/tools-design-2018/"
                 target="_blank"
               >
@@ -85,6 +106,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.smashingmagazine.com/2018/02/comprehensive-website-planning-guide-part1/"
                 target="_blank"
               >
@@ -93,6 +115,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists"
                 target="_blank"
               >
@@ -100,27 +123,47 @@ export default function Resources(props) {
               </a>
             </li>
             <li>
-              <a href="https://webcode.tools/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://webcode.tools/"
+                target="_blank"
+              >
                 Boilerplate code generator
               </a>
             </li>
             <li>
-              <a href="https://svgr.now.sh/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://svgr.now.sh/"
+                target="_blank"
+              >
                 SVG to JSX transformer
               </a>
             </li>
             <li>
-              <a href="http://www.heymeta.com/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="http://www.heymeta.com/"
+                target="_blank"
+              >
                 Hey Meta - Website meta tag checker
               </a>
             </li>
             <li>
-              <a href="https://prettier.io/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://prettier.io/"
+                target="_blank"
+              >
                 Prettier - An opinionated code formatter
               </a>
             </li>
             <li>
-              <a href="https://www.bypeople.com/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://www.bypeople.com/"
+                target="_blank"
+              >
                 ByPeople - Tons of freebies and articles
               </a>
             </li>
@@ -133,6 +176,7 @@ export default function Resources(props) {
           <ul>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.com/javascript-scene/12-books-every-javascript-developer-should-read-9da76157fb3"
                 target="_blank"
               >
@@ -141,6 +185,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e"
                 target="_blank"
               >
@@ -150,6 +195,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://blog.bloomca.me/2018/03/24/async-patterns-js.html"
                 target="_blank"
               >
@@ -157,12 +203,17 @@ export default function Resources(props) {
               </a>
             </li>
             <li>
-              <a href="http://eloquentjavascript.net/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="http://eloquentjavascript.net/"
+                target="_blank"
+              >
                 Eloquent JavaScript - A book explaining key concepts
               </a>
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://github.com/getify/You-Dont-Know-JS"
                 target="_blank"
               >
@@ -172,6 +223,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e"
                 target="_blank"
               >
@@ -180,6 +232,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://codeburst.io/understanding-javascript-proxies-by-examining-on-change-library-f252eddf76c2"
                 target="_blank"
               >
@@ -188,6 +241,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa"
                 target="_blank"
               >
@@ -195,12 +249,20 @@ export default function Resources(props) {
               </a>
             </li>
             <li>
-              <a href="http://speakingjs.com/es5/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="http://speakingjs.com/es5/"
+                target="_blank"
+              >
                 Speaking JavaScript - A book on JavaScript
               </a>
             </li>
             <li>
-              <a href="http://exploringjs.com/es6/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="http://exploringjs.com/es6/"
+                target="_blank"
+              >
                 Exploring ES6 - A book on ES6
               </a>
             </li>
@@ -213,6 +275,7 @@ export default function Resources(props) {
           <ul>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b"
                 target="_blank"
               >
@@ -221,6 +284,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://codeburst.io/how-to-not-react-common-anti-patterns-and-gotchas-in-react-40141fe0dcd"
                 target="_blank"
               >
@@ -229,6 +293,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.com/@samerbuna/react-js-frequently-faced-problems-45e7060ef884"
                 target="_blank"
               >
@@ -237,6 +302,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.freecodecamp.org/react-interview-questions-c8a319ed02bd"
                 target="_blank"
               >
@@ -245,6 +311,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/watch?v=l9eyot_IXLY"
                 target="_blank"
               >
@@ -253,6 +320,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.com/@manojsinghnegi/react-state-vs-props-explained-51beebd73b21"
                 target="_blank"
               >
@@ -261,6 +329,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://hackernoon.com/why-im-switching-from-angular-to-react-and-redux-in-2018-cb48be00fda7"
                 target="_blank"
               >
@@ -269,6 +338,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.freecodecamp.org/yes-react-is-taking-over-front-end-development-the-question-is-why-40837af8ab76"
                 target="_blank"
               >
@@ -278,6 +348,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.com/@bryantheastronaut/ok-here-we-go-b9f683c5a00c"
                 target="_blank"
               >
@@ -286,6 +357,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://scotch.io/tutorials/conditional-routing-with-react-router-v4?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Alligator.io"
                 target="_blank"
               >
@@ -303,17 +375,26 @@ export default function Resources(props) {
           </h3>
           <ul>
             <li>
-              <a href="http://www.csszengarden.com/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="http://www.csszengarden.com/"
+                target="_blank"
+              >
                 CSS Zen Garden - Styling Ideas and Inspiration
               </a>
             </li>
             <li>
-              <a href="https://css-tricks.com/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://css-tricks.com/"
+                target="_blank"
+              >
                 CSS Tricks - Styling Ideas and Inspiration
               </a>
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://blog.logrocket.com/how-css-works-parsing-painting-css-in-the-critical-rendering-path-b3ee290762d3?ref=ewebdesign.com"
                 target="_blank"
               >
@@ -323,6 +404,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.com/@jillplatts/6-minute-beginners-guide-to-css-flexbox-527b3ff3480b"
                 target="_blank"
               >
@@ -331,6 +413,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
                 target="_blank"
               >
@@ -338,12 +421,17 @@ export default function Resources(props) {
               </a>
             </li>
             <li>
-              <a href="https://www.cssmatic.com/box-shadow" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://www.cssmatic.com/box-shadow"
+                target="_blank"
+              >
                 Box Shadow CSS Generator
               </a>
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://css-tricks.com/almanac/properties/b/box-shadow/"
                 target="_blank"
               >
@@ -352,6 +440,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf"
                 target="_blank"
               >
@@ -360,6 +449,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525"
                 target="_blank"
               >
@@ -368,6 +458,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.freecodecamp.org/a-beginners-guide-to-css-grid-3889612c4b35"
                 target="_blank"
               >
@@ -383,6 +474,7 @@ export default function Resources(props) {
           <ul>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.sohamkamani.com/blog/2018/05/30/understanding-how-expressjs-works/"
                 target="_blank"
               >
@@ -392,6 +484,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.thenativeweb.io/blog/2018-06-12-15-47-from-node-to-go-there-and-back-again/"
                 target="_blank"
               >
@@ -400,6 +493,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/watch?v=Z1ktxiqyiLA"
                 target="_blank"
               >
@@ -408,6 +502,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5"
                 target="_blank"
               >
@@ -415,12 +510,17 @@ export default function Resources(props) {
               </a>
             </li>
             <li>
-              <a href="https://noderize.js.org/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://noderize.js.org/"
+                target="_blank"
+              >
                 Noderize - Create a Node app in less than 30 seconds
               </a>
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.codementor.io/equimper/testing-your-api-with-postman-4tuwpkswp"
                 target="_blank"
               >
@@ -429,6 +529,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://alligator.io/nodejs/express-basics/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Alligator.io"
                 target="_blank"
               >
@@ -437,6 +538,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://scotch.io/tutorials/easy-node-authentication-setup-and-local"
                 target="_blank"
               >
@@ -445,6 +547,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/watch?v=K8spO4hHMhg"
                 target="_blank"
               >
@@ -453,6 +556,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/watch?v=TlB_eWDSMt4"
                 target="_blank"
               >
@@ -468,6 +572,7 @@ export default function Resources(props) {
           <ul>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/watch?v=pWbMrx5rVBE"
                 target="_blank"
               >
@@ -475,12 +580,17 @@ export default function Resources(props) {
               </a>
             </li>
             <li>
-              <a href="https://mlab.com/welcome/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://mlab.com/welcome/"
+                target="_blank"
+              >
                 mLab - Host your database for free
               </a>
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1"
                 target="_blank"
               >
@@ -489,18 +599,19 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://hackernoon.com/mongodb-vs-mysql-comparison-which-database-is-better-e714b699c38b"
                 target="_blank"
               >
                 MongoDB vs MySQL Comparison: Which Database is Better?
               </a>
             </li>
-            {/* <li><a href="" target="_blank">article title</a></li>
-            <li><a href="" target="_blank">article title</a></li>
-            <li><a href="" target="_blank">article title</a></li>
-            <li><a href="" target="_blank">article title</a></li>
-            <li><a href="" target="_blank">article title</a></li>
-            <li><a href="" target="_blank">article title</a></li> */}
+            {/* <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li>
+            <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li>
+            <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li>
+            <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li>
+            <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li>
+            <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li> */}
           </ul>
         </div>
       </div>
@@ -513,6 +624,7 @@ export default function Resources(props) {
           <ul>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/watch?v=AFiqctkoVJ4&list=PLillGF-RfqbaEmlPcX5e_ejaK7Y5MydkW"
                 target="_blank"
               >
@@ -521,6 +633,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://severalnines.com/blog/my-favorite-postgresql-queries-and-why-they-matter"
                 target="_blank"
               >
@@ -529,6 +642,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.postgresql.org/docs/10/static/tutorial.html"
                 target="_blank"
               >
@@ -537,6 +651,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/watch?v=xaWlS9HtWYw"
                 target="_blank"
               >
@@ -545,15 +660,19 @@ export default function Resources(props) {
               </a>
             </li>
             <li>
-              <a href="https://www.pgadmin.org/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://www.pgadmin.org/"
+                target="_blank"
+              >
                 pgAdmin development platform for PostgreSQL
               </a>
             </li>
-            {/* <li><a href="" target="_blank">article title</a></li>
-            <li><a href="" target="_blank">article title</a></li>
-            <li><a href="" target="_blank">article title</a></li>
-            <li><a href="" target="_blank">article title</a></li>
-            <li><a href="" target="_blank">article title</a></li> */}
+            {/* <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li>
+            <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li>
+            <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li>
+            <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li>
+            <li><a rel="noopener noreferrer" href="" target="_blank">article title</a></li> */}
           </ul>
         </div>
         <div className="category">
@@ -563,6 +682,7 @@ export default function Resources(props) {
           <ul>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.com/sketch-app-sources/the-ui-and-ux-design-pocket-guide-volume-one-dfb3675ea828?ref=webdesignernews.com"
                 target="_blank"
               >
@@ -571,6 +691,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.webdesignerdepot.com/2018/05/frictionless-ux-how-to-create-smooth-user-flows/?ref=webdesignernews.com"
                 target="_blank"
               >
@@ -579,6 +700,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://uxtricks.design/blogs/ux-design/inclusive-design-designing-for-accessibility/?ref=ewebdesign.com"
                 target="_blank"
               >
@@ -587,6 +709,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.webdesignerdepot.com/2018/05/a-simple-introduction-to-intrinsic-web-design/?ref=webdesignernews.com"
                 target="_blank"
               >
@@ -595,6 +718,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://webdesign.tutsplus.com/articles/the-basics-of-design-thinking--cms-30426?ref=webdesignernews.com"
                 target="_blank"
               >
@@ -602,12 +726,17 @@ export default function Resources(props) {
               </a>
             </li>
             <li>
-              <a href="https://uxmyths.com/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://uxmyths.com/"
+                target="_blank"
+              >
                 UX Myths - Frequent user experience misconceptions
               </a>
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://design.google/library/io-2018-our-definitive-guide-design/?ref=webdesignernews.com"
                 target="_blank"
               >
@@ -616,6 +745,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda"
                 target="_blank"
               >
@@ -624,6 +754,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://medium.com/thinking-design/how-to-turn-user-research-into-smart-design-decisions-c2c6f02f98b"
                 target="_blank"
               >
@@ -632,6 +763,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://ewebdesign.com/4-psychology-principles-web-designers-must-know/?ref=ewebdesign.com"
                 target="_blank"
               >
@@ -646,12 +778,17 @@ export default function Resources(props) {
           </h3>
           <ul>
             <li>
-              <a href="https://palx.jxnblk.com/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://palx.jxnblk.com/"
+                target="_blank"
+              >
                 PALX - Automatic UI Color Palette Generator
               </a>
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://toolness.github.io/accessible-color-matrix/"
                 target="_blank"
               >
@@ -661,6 +798,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="http://chir.ag/projects/name-that-color/#61EDB1"
                 target="_blank"
               >
@@ -668,22 +806,35 @@ export default function Resources(props) {
               </a>
             </li>
             <li>
-              <a href="http://palette.site/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="http://palette.site/"
+                target="_blank"
+              >
                 Site Palette - Get the essential colors from a website
               </a>
             </li>
             <li>
-              <a href="https://www.huesnap.com/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://www.huesnap.com/"
+                target="_blank"
+              >
                 Hue Snap - Color palette ideas
               </a>
             </li>
             <li>
-              <a href="https://duotone.shapefactory.co/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://duotone.shapefactory.co/"
+                target="_blank"
+              >
                 Duotone image effect generator
               </a>
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-creating-your-own-color-palettes/"
                 target="_blank"
               >
@@ -692,6 +843,7 @@ export default function Resources(props) {
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="https://www.smashingmagazine.com/2016/04/web-developer-guide-color/"
                 target="_blank"
               >
@@ -699,12 +851,17 @@ export default function Resources(props) {
               </a>
             </li>
             <li>
-              <a href="http://www.colorzilla.com/" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="http://www.colorzilla.com/"
+                target="_blank"
+              >
                 Colorzilla - Grab colors from any website
               </a>
             </li>
             <li>
               <a
+                rel="noopener noreferrer"
                 href="http://www.colorzilla.com/gradient-editor/"
                 target="_blank"
               >
