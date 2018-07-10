@@ -9,14 +9,7 @@
 }
 
 .about-me-page-container {
-  background: linear-gradient(rgba(232, 244, 254, 0), rgba(232, 244, 254, 0)),
-    url(../../images/abstract-nodes-36.png);
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  position: relative;
-  width: 100%;
+  background: linear-gradient(rgba(232, 244, 254, 0), rgba(232, 244, 254, 0));
 }
 
 .sec1 {
@@ -24,20 +17,38 @@
   width: 100%;
   padding: 25px;
   padding-top: 5%;
-  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.6));
+  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.5)),
+    url(../../images/abstract-nodes-36.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
 }
 
 .sec2 {
   height: 450px;
   width: 100%;
-  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.6));
+  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.5)),
+    url(../../images/abstract-nodes-30.png);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  position: relative;
   border-top: 1px solid #3a3f44;
 }
 
 .sec3 {
   height: 450px;
   padding: 25px;
-  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.6));
+  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.5)),
+    url(../../images/abstract-nodes-29.png);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  position: relative;
   border-top: 1px solid #3a3f44;
 }
 
@@ -74,6 +85,14 @@
   font-size: 125px;
   margin-top: 75px;
   color: #3a3f44;
+}
+
+.icon-section i {
+  border: 2px solid #3a3f44;
+  border-radius: 75%;
+  background-color: #FFFFFF;
+  padding: 30px;
+
 }
 
 .headshot {
