@@ -8,7 +8,7 @@ import "./Navbar.css";
 export class Navbar extends React.Component {
   // currentLocation = this.props.location.pathname;
   render() {
-    console.log('this is props', this.props);
+    // console.log('this is props', this.props);
     return (
       <header className="navbar">
         <nav className="navigation">
