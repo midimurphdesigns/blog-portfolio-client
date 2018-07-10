@@ -1,18 +1,7 @@
 .portfolio-page-container {
   font-family: "Open Sans", sans-serif;
   background-color: rgba(232, 244, 254, 0.7);
-  /* background: linear-gradient(
-      rgba(207, 232, 253, 0.7),
-      rgba(232, 244, 254, 0.7)
-    ),
-    url(../../images/abstract-nodes-36.png);
-  background-repeat: no-repeat;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  z-index: -1;
-  position: relative; */
+  color: #3a3f44;
 }
 
 .bg-fullstack {
@@ -65,13 +54,14 @@
 
 .header {
   line-height: 1em;
+  color: #3a3f44!important;
 }
 
 .ui.items > .item {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 50px;
   padding: 20px;
-  border: 2px solid black;
+  border: 2px solid #3a3f44;;
   border-radius: 8px;
   background-color: #f8f9fa;
 }
@@ -88,7 +78,7 @@
 
 .ui.items > .item > .content a:not(.ui) {
   line-height: 1.5em;
-  color: black;
+  color: #3a3f44;
 }
 
 .ui.items > .item > .content a:not(.ui):hover {
