@@ -1,5 +1,6 @@
 .section-container {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #3a3f44;
 }
 
 .vertical-align {
@@ -7,41 +8,39 @@
   vertical-align: middle;
 }
 
+.about-me-page-container {
+  background: linear-gradient(rgba(232, 244, 254, 0), rgba(232, 244, 254, 0)),
+    url(../../images/abstract-nodes-36.png);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  position: relative;
+  width: 100%;
+}
+
 .sec1 {
   height: 700px;
   width: 100%;
   padding: 25px;
   padding-top: 5%;
-  /* border-bottom: 2px solid black; */
-  background: 
-  linear-gradient(
-  rgba(207, 232, 253, 1), 
-  rgba(232, 244, 254, 1)
-  );
+  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.6));
 }
 
 .sec2 {
   height: 450px;
   width: 100%;
-  /* border-bottom: 2px solid black; */
-  background: 
-  linear-gradient(
-  rgba(207, 232, 253, 1), 
-  rgba(232, 244, 254, 1)
-  );
+  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.6));
 }
 
 .sec3 {
   height: 450px;
   padding: 25px;
-  background: 
-  linear-gradient(
-  rgba(207, 232, 253, 1), 
-  rgba(232, 244, 254, 1)
-  );
+  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.6));
 }
 
-.sec-left, .sec-right {
+.sec-left,
+.sec-right {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -56,8 +55,8 @@
 .about-label {
   display: flex;
   justify-content: center;
-  color: black;
-  border-bottom: 2px solid black;
+  color: #3a3f44;
+  border-bottom: 2px solid #3a3f44;
   font-size: 45px;
   font-weight: 700;
   width: 80%;
@@ -72,7 +71,7 @@
   justify-content: space-around;
   font-size: 125px;
   margin-top: 75px;
-  color: black;
+  color: #3a3f44;
 }
 
 .headshot {
@@ -82,13 +81,13 @@
   border-radius: 10px;
   margin: auto;
   margin-top: 85px;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .img-description {
   font-size: 16px;
   text-align: center;
-  color: black;
+  color: #3a3f44;
 }
 
 .label-tile-sec2 {
@@ -130,12 +129,12 @@
 }
 
 li {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 10px;
 }
 
 .bio-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: justify;
   font-size: 20px;
   padding: 10px;
@@ -148,7 +147,9 @@ li {
 }
 
 @media only screen and (max-width: 1050px) {
-  .sec1, .icon-section, .topbar-container {
+  .sec1,
+  .icon-section,
+  .topbar-container {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -174,7 +175,8 @@ li {
     margin-top: 40px;
   }
 
-  .sec2, .sec3 {
+  .sec2,
+  .sec3 {
     display: none;
   }
 

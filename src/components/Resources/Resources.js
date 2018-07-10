@@ -6,7 +6,7 @@ import "./Resources.css";
 
 export default function Resources(props) {
   return (
-    <div className="page-container">
+    <div className="resources-page-container">
       <TopBar />
       <ScrollTop />
       <h1 className="resources-page-title" id="header">
@@ -772,7 +772,8 @@ export default function Resources(props) {
             </li>
           </ul>
         </div>
-        <div className="category">
+
+        <div className="category category-color">
           <h3 className="category-title" id="color">
             Color
           </h3>
@@ -859,7 +860,7 @@ export default function Resources(props) {
                 Colorzilla - Grab colors from any website
               </a>
             </li>
-            <li>
+            <li className="category-color">
               <a
                 rel="noopener noreferrer"
                 href="http://www.colorzilla.com/gradient-editor/"

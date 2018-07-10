@@ -1,5 +1,12 @@
-.page-container {
-  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 1));
+.resources-page-container {
+  background: linear-gradient(rgba(232, 244, 254, 0.9), rgba(232, 244, 254, 0.9)),
+    url(../../images/abstract-nodes-36.png);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  /* z-index: -1; */
+  position: relative;
 }
 
 .resources-page-title {
@@ -70,6 +77,11 @@
   margin-bottom: 40px;
 }
 
+.category-color {
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+
 .category-title {
   font-family: "Open Sans", sans-serif;
   font-size: 28px;
@@ -90,6 +102,10 @@
 
 .category li {
   margin-bottom: 10px;
+}
+
+.category-color li {
+  margin-bottom: 0px;
 }
 
 .category a:hover {
@@ -118,7 +134,6 @@
     padding: 10px;
     width: 60%;
     margin: 10px auto;
-
   }
   .category {
     width: 90vw;

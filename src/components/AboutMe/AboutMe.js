@@ -8,7 +8,7 @@ import SectionThree from './SectionThree'
 
 export default function AboutMe(props) {
   return (
-    <div className="page-container">
+    <div className="about-me-page-container">
       <TopBar />
       <SectionOne />
       <SectionTwo />
