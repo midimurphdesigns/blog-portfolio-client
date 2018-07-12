@@ -5,7 +5,7 @@ import Helmet from "react-helmet";
 import "./index.css";
 import "../styles/layout-overide.css";
 
-import Header from '../components/Header/Header'
+import Navbar from '../components/Navbar/Navbar'
 import Sidebar from '../components/Sidebar/Sidebar'
 import Footer from '../components/Footer/Footer'
 
@@ -20,7 +20,7 @@ const TemplateWrapper = ({ children }) => (
         { name: "keywords", content: "sample, something" }
       ]}
     />
-    <Header />
+    <Navbar />
     <div
       style={{
         margin: "0 auto",
@@ -81,6 +81,8 @@ const TemplateWrapper = ({ children }) => (
     <Footer />
   </div>
 );
+
+console.log(TemplateWrapper);
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func
