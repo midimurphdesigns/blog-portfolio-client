@@ -19,7 +19,7 @@ export default function Portfolio(props) {
         </div>
       </div>
       <div className="bg-wordpress">
-        <h1 className="page-title">WordPress Development</h1>
+        <h1 className="page-title-wordpress">WordPress Development</h1>
         <div className="items-container">
           <WordPressItems />
         </div>

@@ -44,6 +44,17 @@
   padding: 20px;
 }
 
+.page-title-wordpress {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 80px!important;
+  padding: 20px;
+}
+
 .items-container {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 50px;
