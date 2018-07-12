@@ -50,7 +50,7 @@ const items = [
       <div>
         <a
           rel="noopener noreferrer"
-          href="musixchange.netlify.com/"
+          href="http://musixchange.netlify.com/"
           target="_blank"
         >
           Live App
