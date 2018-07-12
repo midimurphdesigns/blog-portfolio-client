@@ -1,5 +1,8 @@
 .resources-page-container {
-  background: linear-gradient(rgba(232, 244, 254, 0.9), rgba(232, 244, 254, 0.9)),
+  background: linear-gradient(
+      rgba(232, 244, 254, 0.9),
+      rgba(232, 244, 254, 0.9)
+    ),
     url(../../images/abstract-nodes-36.png);
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -101,7 +104,7 @@
   text-decoration: none;
   font-size: 20px;
   line-height: 1.1em;
-  color: black;
+  color: #3a3f44;
 }
 
 .category li {
@@ -144,5 +147,11 @@
   }
   .category a {
     text-decoration: underline;
+  }
+  .resources-page-container {
+    background: linear-gradient(
+      rgba(232, 244, 254, 0.9),
+      rgba(232, 244, 254, 0.9)
+    );
   }
 }

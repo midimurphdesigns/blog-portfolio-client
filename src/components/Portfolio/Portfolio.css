@@ -1,15 +1,15 @@
 .portfolio-page-container {
   font-family: "Open Sans", sans-serif;
-  background-color: rgba(232, 244, 254, 0.7);
+  background-color: rgba(232, 244, 254, .3);
   color: #3a3f44;
 }
 
 .bg-fullstack {
   background: linear-gradient(
-      rgba(232, 244, 254, 0.6),
-      rgba(232, 244, 254, 0.6)
+      rgba(232, 244, 254, .3),
+      rgba(232, 244, 254, .3)
     ),
-    url(../../images/abstract-nodes-31.png);
+    url(../../images/abstract-nodes-25.png);
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100vw;
   -moz-background-size: 100% 100vw;
@@ -20,16 +20,17 @@
 
 .bg-wordpress {
   background: linear-gradient(
-      rgba(232, 244, 254, 0.6),
-      rgba(232, 244, 254, 0.6)
+      rgba(232, 244, 254, .3),
+      rgba(232, 244, 254, .3)
     ),
-    url(../../images/abstract-nodes-25.png);
+    url(../../images/abstract-nodes-31.png);
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100vw;
   -moz-background-size: 100% 100vw;
   -o-background-size: 100% 100vw;
   background-size: 100% 100vw;
   position: relative;
+  border-top: 1px solid #3a3f44;
 }
 
 .page-title {
@@ -54,14 +55,14 @@
 
 .header {
   line-height: 1em;
-  color: #3a3f44!important;
+  color: #3a3f44 !important;
 }
 
 .ui.items > .item {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 50px;
   padding: 20px;
-  border: 2px solid #3a3f44;;
+  border: 2px solid #3a3f44;
   border-radius: 8px;
   background-color: #f8f9fa;
 }
@@ -105,5 +106,17 @@
     display: flex;
     justify-content: center;
     /* text-align: center; */
+  }
+  .bg-fullstack {
+    background: linear-gradient(
+      rgba(232, 244, 254, 0.4),
+      rgba(232, 244, 254, 0.4)
+    );
+  }
+  .bg-wordpress {
+    background: linear-gradient(
+      rgba(232, 244, 254, 0.4),
+      rgba(232, 244, 254, 0.4)
+    );
   }
 }

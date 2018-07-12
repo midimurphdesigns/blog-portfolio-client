@@ -12,13 +12,31 @@ const items = [
       "An app that allows users to search for live music in their area and invite friends to shows they've found.",
     meta: "React, Redux, MongoDB, Node, Express",
     extra: (
-      <a
-        rel="noopener noreferrer"
-        href="https://concertconnect-client.herokuapp.com/"
-        target="_blank"
-      >
-        https://concertconnect-client.herokuapp.com/
-      </a>
+      <div>
+        <a
+          rel="noopener noreferrer"
+          href="https://concertconnect-client.herokuapp.com/"
+          target="_blank"
+        >
+          Live App
+        </a>
+        <br />
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/kttm-development/kttm-client"
+          target="_blank"
+        >
+          Github Client Repo
+        </a>
+        <br />
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/kttm-development/kttm-server"
+          target="_blank"
+        >
+          Github Server Repo
+        </a>
+      </div>
     )
   },
   {
@@ -29,30 +47,66 @@ const items = [
       "An app that facilitates buying and selling music gear. This app allowed me to combine two main passions of mine; music and web development.",
     meta: "React, Redux, MongoDB, Node, Express",
     extra: (
-      <a
-        rel="noopener noreferrer"
-        href="https://musixchange.netlify.com/"
-        target="_blank"
-      >
-        https://musixchange.netlify.com/
-      </a>
+      <div>
+        <a
+          rel="noopener noreferrer"
+          href="https://musixchange.netlify.com/"
+          target="_blank"
+        >
+          Live App
+        </a>
+        <br />
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/midimurphdesigns/musixchange-client"
+          target="_blank"
+        >
+          Github Client Repo
+        </a>
+        <br />
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/midimurphdesigns/musixchange-server"
+          target="_blank"
+        >
+          Github Server Repo
+        </a>
+      </div>
     )
   },
   {
     childKey: 2,
-    image: require("../../images/staccato-preview2.png"),
+    image: require("../../images/staccato-preview.png"),
     header: "Staccato",
     description:
       "An app to help learn music theory. This app is cool because of the algorithm involving linked lists used to suggest new questions.",
     meta: "React, Redux, MongoDB, Node, Express",
     extra: (
-      <a
-        rel="noopener noreferrer"
-        href="https://staccato-music-theory.netlify.com/"
-        target="_blank"
-      >
-        https://staccato-music-theory.netlify.com/
-      </a>
+      <div>
+        <a
+          rel="noopener noreferrer"
+          href="https://staccato-music-theory.netlify.com/"
+          target="_blank"
+        >
+          Live App
+        </a>
+        <br />
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/midimurphdesigns/staccato-client"
+          target="_blank"
+        >
+          Github Client Repo
+        </a>
+        <br />
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/midimurphdesigns/staccato-server"
+          target="_blank"
+        >
+          Github Server Repo
+        </a>
+      </div>
     )
   },
   {
@@ -63,13 +117,23 @@ const items = [
       "A good 'ol note taking app. I built the backend four times to learn four different ways of storing data including SQL and noSQL.",
     meta: "MongoDB, PostgreSQL, Node, Express, Jquery, HTML, CSS",
     extra: (
-      <a
-        rel="noopener noreferrer"
-        href="https://kevin-noteful-v4.herokuapp.com/"
-        target="_blank"
-      >
-        https://kevin-noteful-v4.herokuapp.com/
-      </a>
+      <div>
+        <a
+          rel="noopener noreferrer"
+          href="https://kevin-noteful-v4.herokuapp.com/"
+          target="_blank"
+        >
+          Live App
+        </a>
+        <br />
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/midimurphdesigns/noteful-v4"
+          target="_blank"
+        >
+          Github Repo
+        </a>
+      </div>
     )
   }
   // {

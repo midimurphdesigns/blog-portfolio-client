@@ -90,9 +90,8 @@
 .icon-section i {
   border: 2px solid #3a3f44;
   border-radius: 75%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 30px;
-
 }
 
 .headshot {
@@ -181,14 +180,31 @@ li {
 
   .headshot {
     font-size: 40px;
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     margin-top: 0;
   }
 
   .icon-section {
     width: 100%;
     margin: auto;
+  }
+
+  .icon-section i {
+    border-radius: 50%;
+    padding: 10px;
+    width: 75%;
+    height: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .sec1 {
+    background: linear-gradient(
+      rgba(207, 232, 253, 0.9),
+      rgba(232, 244, 254, 0.4)
+    );
   }
 
   .sec-left label {

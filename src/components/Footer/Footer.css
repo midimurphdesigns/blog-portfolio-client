@@ -46,13 +46,13 @@
 
 .footer-navigation-text {
   font-family: 'Montserrat', sans-serif;
-  color: black;
+  color: #3a3f44;
   text-decoration: none;
   padding: 20px;
 }
 
 .footer-navigation-text:hover {
-  color: black;
+  color: #3a3f44;
   text-decoration: underline;
 }
 
