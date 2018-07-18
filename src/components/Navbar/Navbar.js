@@ -6,9 +6,7 @@ import DrawerToggleButton from "./DrawerToggleButton";
 import "./Navbar.css";
 
 export class Navbar extends React.Component {
-  // currentLocation = this.props.location.pathname;
   render() {
-    // console.log('this is props', this.props);
     return (
       <header className="navbar">
         <nav className="navigation">
@@ -45,5 +43,4 @@ export class Navbar extends React.Component {
   }
 }
 
-// export default (Navbar)
 export default connect()(Navbar);
