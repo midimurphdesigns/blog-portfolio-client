@@ -14,9 +14,9 @@ export class Navbar extends React.Component {
         <nav className="navigation">
           <div className="spacer-half" />
           <div className="logo">
-            <Link className="logo" to="/">
+            <a className="logo" href="//kevinmurphywebdev.com">
               Kevin Murphy
-            </Link>
+            </a>
           </div>
           <div className="spacer" />
           <div className="toggle-button">
@@ -26,13 +26,13 @@ export class Navbar extends React.Component {
           <div className="navigation-items">
             <ul>
               <li>
-                <Link to="/">About Me</Link>
+                <a href="//kevinmurphywebdev.com">About Me</a>
               </li>
               <li>
-                <Link to="/portfolio">Portfolio</Link>
+                <a href="//kevinmurphywebdev.com/portfolio">Portfolio</a>
               </li>
               <li>
-                <Link to="/resources">Resources</Link>
+                <a href="//kevinmurphywebdev.com/resources">Resources</a>
               </li>
               <li>
                 <a href="//blog.kevinmurphywebdev.com">Blog</a>

@@ -42,6 +42,7 @@ const TemplateWrapper = ({ children, sideDrawerOpen, toggleDrawer }) => {
             flexDirection: 'row',
             justifyContent: 'space-between',
             height: '100%',
+            minHeight: '75vh',
           }}
         >
           <Media query={{ maxWidth: 848 }}>

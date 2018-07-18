@@ -1,19 +1,16 @@
-import React from 'react';
-import { connect } from 'react-redux';
+import React from 'react'
+import { connect } from 'react-redux'
 
-import { sideDrawerToggle } from '../../actions/side-drawer-actions';
-import './Backdrop.css';
+import { toggleDrawer as toggleDrawerAction } from '../../state/app'
+import './Backdrop.css'
 
-export function Backdrop(props) {
-    return (
-        <div
-            onClick={() => {
-                return props.dispatch(sideDrawerToggle())
-            }}
-            className="backdrop"
-        />
-    );
-};
+export function Backdrop({ sideDrawerOpen, toggleDrawer }) {
+  return (
+    <div onClick={() => toggleDrawer(!sideDrawerOpen)} className="backdrop" />
+  )
+}
 
-
-export default connect()(Backdrop);;
+export default connect(
+  state => ({ sideDrawerOpen: state.app.sideDrawerOpen }),
+  dispatch => ({ toggleDrawer: open => dispatch(toggleDrawerAction(open)) })
+)(Backdrop)
