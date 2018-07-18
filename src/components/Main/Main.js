@@ -14,7 +14,6 @@ import Backdrop from "../Navbar/Backdrop";
 import "./Main.css";
 
 export class Main extends React.Component {
-  
   render() {
     if (this.props.sideDrawerOpen) {
       return (
