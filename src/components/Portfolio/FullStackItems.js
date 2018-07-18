@@ -26,7 +26,7 @@ const items = [
           href="https://github.com/kttm-development/kttm-client"
           target="_blank"
         >
-          Github Client Repo
+          GitHub Client Repo
         </a>
         <br />
         <a
@@ -34,7 +34,7 @@ const items = [
           href="https://github.com/kttm-development/kttm-server"
           target="_blank"
         >
-          Github Server Repo
+          GitHub Server Repo
         </a>
       </div>
     )
@@ -61,7 +61,7 @@ const items = [
           href="https://github.com/midimurphdesigns/musixchange-client"
           target="_blank"
         >
-          Github Client Repo
+          GitHub Client Repo
         </a>
         <br />
         <a
@@ -69,7 +69,7 @@ const items = [
           href="https://github.com/midimurphdesigns/musixchange-server"
           target="_blank"
         >
-          Github Server Repo
+          GitHub Server Repo
         </a>
       </div>
     )
@@ -96,7 +96,7 @@ const items = [
           href="https://github.com/midimurphdesigns/staccato-client"
           target="_blank"
         >
-          Github Client Repo
+          GitHub Client Repo
         </a>
         <br />
         <a
@@ -104,7 +104,7 @@ const items = [
           href="https://github.com/midimurphdesigns/staccato-server"
           target="_blank"
         >
-          Github Server Repo
+          GitHub Server Repo
         </a>
       </div>
     )
@@ -131,7 +131,7 @@ const items = [
           href="https://github.com/midimurphdesigns/noteful-v4"
           target="_blank"
         >
-          Github Repo
+          GitHub Repo
         </a>
       </div>
     )
