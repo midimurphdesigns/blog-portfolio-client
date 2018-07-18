@@ -34,6 +34,7 @@
 }
 
 .page-title {
+  cursor: default;
   font-family: "Open Sans", sans-serif;
   text-align: center;
   font-size: 40px;
@@ -45,6 +46,7 @@
 }
 
 .page-title-wordpress {
+  cursor: default;
   font-family: "Open Sans", sans-serif;
   text-align: center;
   font-size: 40px;

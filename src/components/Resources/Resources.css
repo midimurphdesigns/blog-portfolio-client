@@ -13,6 +13,7 @@
 }
 
 .resources-page-title {
+  cursor: default;
   font-family: "Open Sans", sans-serif;
   font-size: 50px;
   font-weight: 700;
@@ -23,6 +24,7 @@
 }
 
 .resources-page-subtitle {
+  cursor: default;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -90,6 +92,7 @@
 }
 
 .category-title {
+  cursor: default;
   font-family: "Open Sans", sans-serif;
   font-size: 28px;
   text-align: center;
