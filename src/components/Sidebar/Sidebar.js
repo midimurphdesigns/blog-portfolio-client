@@ -6,7 +6,8 @@ const Sidebar = (props) => (
             border: '2px solid #e6e6e6',
             maxWidth: 960,
             padding: '0.5rem',
-            marginBottom: '25px'
+            marginBottom: '25px',
+            background: '#F8F9FA',
         }}
     >
         <strong>{props.title}.</strong> {props.description}
