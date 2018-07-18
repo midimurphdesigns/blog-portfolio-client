@@ -38,7 +38,7 @@ const TemplateWrapper = ({ children, sideDrawerOpen, toggleDrawer }) => {
           style={{
             background: `linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.5))`,
           }}
-        >
+        > 
           <div
             style={{
               margin: '0 auto',
