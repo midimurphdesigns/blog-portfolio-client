@@ -35,7 +35,7 @@ export class Navbar extends React.Component {
                 <a href="//kevinmurphywebdev.com/resources">Resources</a>
               </li>
               <li>
-                <a href="//blog.kevinmurphywebdev.com">Blog</a>
+                <a href="/">Blog</a>
               </li>
             </ul>
           </div>

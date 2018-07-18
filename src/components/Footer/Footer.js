@@ -7,10 +7,10 @@ export default function Footer(props) {
   return (
     <div className="footer-container">
       <div className="footer-navigation">
-        <Link to="/" className="footer-navigation-text">
+        <Link to="//kevinmurphywebdev.com" className="footer-navigation-text">
           About Me
         </Link>
-        <Link to="/portfolio" className="footer-navigation-text">
+        <Link to="//kevinmurphywebdev.com/portfolio" className="footer-navigation-text">
           Portfolio
         </Link>
       </div>
@@ -21,10 +21,10 @@ export default function Footer(props) {
       </div>
 
       <div className="footer-navigation">
-        <Link to="/resources" className="footer-navigation-text">
+        <Link to="//kevinmurphywebdev.com/resources" className="footer-navigation-text">
           Resources
         </Link>
-        <Link to="/blog" className="footer-navigation-text">
+        <Link to="/" className="footer-navigation-text">
           Blog
         </Link>
       </div>
