@@ -18,16 +18,16 @@ class Layout extends React.Component {
             marginTop: 0,
           }}
         >
-          <a
+          <Link
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
             }}
-            href="https://kevinmurphywebdev.com"
+            to={`/`}
           >
             {title}
-          </a>
+          </Link>
         </h1>
       )
     } else {
@@ -44,7 +44,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            href="https://kevinmurphywebdev.com"
+            href={`https://kevinmurphywebdev.com`}
           >
             {title}
           </a>
