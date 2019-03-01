@@ -3,7 +3,7 @@ module.exports = {
     title: `Kevin Murphy Web Dev Blog`,
     author: `Kevin Murphy`,
     description: `A blog for all things web & mobile development.`,
-    siteUrl: `kevinmurphywebdev.com`,
+    siteUrl: `https://kevinmurphywebdev.com`,
     social: {
       twitter: `kmurphywebdev`,
     },
