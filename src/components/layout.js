@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm, scale } from '../utils/typography'
 
 class Layout extends React.Component {
   render() {
@@ -38,16 +38,16 @@ class Layout extends React.Component {
             marginTop: 0,
           }}
         >
-          <Link
+          <a
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/`}
+            href={`https://kevinmurphywebdev.com`}
           >
             {title}
-          </Link>
+          </a>
         </h3>
       )
     }
