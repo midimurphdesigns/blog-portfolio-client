@@ -24,11 +24,6 @@ export default class Navbar extends Component {
             padding: '0, 10px',
           }}
         >
-          <div
-            style={{
-              flex: '1',
-            }}
-          />
           <div>
             <a
               style={{
@@ -47,17 +42,6 @@ export default class Navbar extends Component {
               Kevin Murphy
             </a>
           </div>
-          {/* <div
-            style={{
-              flex: '1',
-            }}
-          />
-
-          <div
-            style={{
-              flex: '0.5',
-            }}
-          /> */}
           <div
             style={{
               display: 'flex',
