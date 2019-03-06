@@ -1,7 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
+import Navbar from './Navbar'
 
 class Layout extends React.Component {
   render() {
@@ -55,90 +56,10 @@ class Layout extends React.Component {
       <div
         style={{
           backgroundImage: `linear-gradient( to bottom, #cfe8fd, rgba(232,244,254,.5) ), url(../../../../content/assets/km-logo.png)`,
+          height: 5000,
         }}
       >
-        <header
-          style={{
-            backgroundColor: 'blue',
-            width: '100%',
-            height: '70px',
-            top: '0',
-            left: '0',
-          }}
-        >
-          <nav
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              height: '100%',
-              width: '100%',
-              padding: '0, 10px',
-            }}
-          >
-            <div
-              style={{
-                flex: '1',
-              }}
-            />
-            <div
-              style={{
-                fontSize: '35px',
-                textDecoration: 'none',
-                color: 'white',
-                fontWeight: '500',
-              }}
-            >
-              <a
-                style={{
-                  fontSize: '35px',
-                  textDecoration: 'none',
-                  color: 'white',
-                  fontWeight: '500',
-                }}
-                href="//kevinmurphywebdev.com"
-              >
-                Kevin Murphy
-              </a>
-            </div>
-            <div
-              style={{
-                flex: '1',
-              }}
-            />
-            {/* <div className="toggle-button">
-              <DrawerToggleButton />
-            </div> */}
-            <div
-              style={{
-                flex: '0.5',
-              }}
-            />
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                height: '100%',
-                width: '100%',
-              }}
-            >
-              <ul>
-                <li>
-                  <a href="//kevinmurphywebdev.com">About Me</a>
-                </li>
-                <li>
-                  <a href="//kevinmurphywebdev.com/portfolio">Portfolio</a>
-                </li>
-                <li>
-                  <a href="//kevinmurphywebdev.com/resources">Resources</a>
-                </li>
-                <li>
-                  <a href="//blog.kevinmurphywebdev.com">Blog</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </header>
-
+        <Navbar />
         <div
           style={{
             marginLeft: `auto`,
