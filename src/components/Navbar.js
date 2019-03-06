@@ -12,6 +12,7 @@ export default class Navbar extends Component {
           height: '70px',
           top: '0',
           left: '0',
+          borderBottom: '1px solid black',
         }}
       >
         <nav
