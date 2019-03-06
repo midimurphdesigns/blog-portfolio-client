@@ -7,7 +7,7 @@ export default class Navbar extends Component {
         style={{
           display: 'flex',
           flexDirection: 'row',
-          backgroundColor: 'blue',
+          backgroundColor: '#5DA5F2',
           width: '100%',
           height: '70px',
           top: '0',
@@ -29,32 +29,25 @@ export default class Navbar extends Component {
               flex: '1',
             }}
           />
-          <div
-          // style={{
-          //   display: 'flex',
-          //   flexDirection: 'row',
-          //   fontSize: '25px',
-          //   textDecoration: 'none',
-          //   color: 'white',
-          //   fontWeight: '500',
-          // }}
-          >
+          <div>
             <a
               style={{
                 display: 'flex',
                 flexDirection: 'row',
-                fontSize: '15px',
+                fontSize: '35px',
                 textDecoration: 'none',
                 color: 'white',
                 fontWeight: '500',
-                width: '100%',
+                width: 200,
+                fontFamily: 'Pacifico',
+                paddingLeft: 20,
               }}
               href="//kevinmurphywebdev.com"
             >
               Kevin Murphy
             </a>
           </div>
-          <div
+          {/* <div
             style={{
               flex: '1',
             }}
@@ -64,7 +57,7 @@ export default class Navbar extends Component {
             style={{
               flex: '0.5',
             }}
-          />
+          /> */}
           <div
             style={{
               display: 'flex',
@@ -83,6 +76,8 @@ export default class Navbar extends Component {
                 listStyleType: 'none',
                 padding: '10px',
                 color: 'white',
+                fontFamily: 'Montserrat',
+                paddingTop: 50,
               }}
             >
               <li>

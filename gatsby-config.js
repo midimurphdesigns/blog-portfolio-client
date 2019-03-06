@@ -57,11 +57,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Kevin Murphy Web Dev Blog`,
+        short_name: `KM Web Dev Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#5DA5F2`,
         display: `minimal-ui`,
         icon: `content/assets/km-logo.png`,
       },
