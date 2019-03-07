@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'gatsby'
 
 export default class Navbar extends Component {
   render() {
@@ -31,7 +32,6 @@ export default class Navbar extends Component {
                 display: 'flex',
                 flexDirection: 'row',
                 fontSize: '35px',
-                textDecoration: 'none',
                 color: 'white',
                 fontWeight: '500',
                 width: 200,
@@ -99,15 +99,15 @@ export default class Navbar extends Component {
                 </a>
               </li>
               <li>
-                <a
-                  href="//blog.kevinmurphywebdev.com"
+                <Link
+                  to="/"
                   style={{
                     padding: '10px',
                     color: 'white',
                   }}
                 >
                   Blog
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

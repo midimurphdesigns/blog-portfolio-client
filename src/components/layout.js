@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
 import Navbar from './Navbar'
@@ -19,16 +19,17 @@ class Layout extends React.Component {
             marginTop: 0,
           }}
         >
-          <a
+          <Link
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
+              textDecorationColor: 'red',
             }}
-            href="https://kevinmurphywebdev.com"
+            to="/"
           >
             {title}
-          </a>
+          </Link>
         </h1>
       )
     } else {
@@ -45,7 +46,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            href="https://kevinmurphywebdev.com"
+            href="https://blog.kevinmurphywebdev.com"
           >
             {title}
           </a>
