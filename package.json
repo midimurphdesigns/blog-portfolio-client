@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "Web & Mobile Blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A blog discussing web and mobile development tools and techniques.",
+  "version": "2.1.0",
+  "author": "Kevin Murphy <midimurphdesigns@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/midimurphdesigns/blog-portfolio-client/issues"
   },
   "dependencies": {
     "gatsby": "^2.1.19",
@@ -26,30 +26,46 @@
     "gatsby-transformer-remark": "^2.3.0",
     "gatsby-transformer-sharp": "^2.1.15",
     "prismjs": "^1.15.0",
+    "radium": "^0.25.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.18",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
+    "typeface-pacifico": "0.0.72",
     "typography": "^0.16.18",
-    "typography-theme-doelger": "^0.16.18",
-    "typography-theme-funston": "^0.16.18",
-    "typography-theme-grand-view": "^0.16.18",
-    "typography-theme-wordpress-2016": "^0.16.18"
+    "typography-theme-grand-view": "^0.16.18"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://kevinmurphywebdev.com/",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "blog",
+    "web",
+    "mobile",
+    "web development",
+    "mobile development",
+    "react",
+    "react native",
+    "AWS",
+    "Amazon Web Services",
+    "serverless",
+    "cloud",
+    "lambda",
+    "development",
+    "code",
+    "Kevin Murphy",
+    "Kevin",
+    "Murphy"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "https://github.com/midimurphdesigns/blog-portfolio-client"
   },
   "scripts": {
     "build": "gatsby build",

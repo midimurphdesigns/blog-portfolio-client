@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
+import Radium from 'radium'
 
-export default class Navbar extends Component {
+class Navbar extends Component {
   render() {
     return (
       <header
@@ -67,47 +68,35 @@ export default class Navbar extends Component {
             >
               <li>
                 <a
+                  key="1"
                   href="//kevinmurphywebdev.com"
-                  style={{
-                    padding: '10px',
-                    color: 'white',
-                  }}
+                  style={styles.navItems}
                 >
                   About Me
                 </a>
               </li>
               <li>
                 <a
+                  key="2"
                   href="//kevinmurphywebdev.com/portfolio"
-                  style={{
-                    padding: '10px',
-                    color: 'white',
-                  }}
+                  style={styles.navItems}
                 >
                   Portfolio
                 </a>
               </li>
               <li>
                 <a
+                  key="3"
                   href="//kevinmurphywebdev.com/resources"
-                  style={{
-                    padding: '10px',
-                    color: 'white',
-                  }}
+                  style={styles.navItems}
                 >
                   Resources
                 </a>
               </li>
               <li>
-                <Link
-                  to="/"
-                  style={{
-                    padding: '10px',
-                    color: 'white',
-                  }}
-                >
+                <a key="4" href="/" style={styles.navItems}>
                   Blog
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -116,3 +105,15 @@ export default class Navbar extends Component {
     )
   }
 }
+
+const styles = {
+  navItems: {
+    padding: '10px',
+    color: 'white',
+    ':hover': {
+      color: '#BDE1FC',
+    },
+  },
+}
+
+export default Radium(Navbar)
