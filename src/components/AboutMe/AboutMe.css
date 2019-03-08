@@ -73,10 +73,11 @@
   border-bottom: 2px solid #3a3f44;
   font-size: 45px;
   font-weight: 700;
-  width: 80%;
   margin: auto;
   margin-top: 100px;
   padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   line-height: 1em;
 }
 
@@ -92,7 +93,8 @@
   border-radius: 75%;
   background-color: #ffffff;
   padding: 30px;
-  margin-right: 20px;
+  margin-right: 22px;
+  margin-left: 22px;
 }
 
 .headshot {
