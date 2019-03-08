@@ -11,7 +11,7 @@ export default function SectionOne(props) {
               <i className="lighten devicon-react-original-wordmark" />
               <i className="lighten devicon-nodejs-plain-wordmark" />
               <i className="lighten devicon-amazonwebservices-plain-wordmark" />
-              <i className="lighten devicon-visualstudio-plain-wordmark" />
+              <i className="lighten devicon-css3-plain-wordmark" />
             </div>
           </div>
           <div className="sec-right col-4">
