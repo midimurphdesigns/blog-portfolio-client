@@ -57,7 +57,7 @@ class Layout extends React.Component {
       <div
         style={{
           backgroundImage: `linear-gradient( to bottom, #cfe8fd, rgba(232,244,254,.5) ), url(../../../../content/assets/km-logo.png)`,
-          height: '100vh',
+          // height: 5000,
         }}
       >
         <Navbar />
