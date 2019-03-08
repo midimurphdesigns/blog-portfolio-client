@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function SectionTwo(props) {
   return (
@@ -15,7 +15,7 @@ export default function SectionTwo(props) {
               <ul>
                 <li>Manage data flow with React</li>
                 <li>Manage state with Redux</li>
-                <li>Create RESTful APIs</li>
+                <li>Use REST or GraphQL APIs</li>
                 <li>Make SQL and noSQL databases</li>
               </ul>
             </div>
@@ -31,5 +31,5 @@ export default function SectionTwo(props) {
         </div>
       </div>
     </section>
-  )
+  );
 }

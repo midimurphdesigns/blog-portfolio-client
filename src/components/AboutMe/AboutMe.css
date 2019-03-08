@@ -56,6 +56,7 @@
 .sec-right {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -81,7 +82,6 @@
 
 .icon-section {
   display: flex;
-  justify-content: space-around;
   font-size: 125px;
   margin-top: 75px;
   color: #3a3f44;
@@ -92,12 +92,12 @@
   border-radius: 75%;
   background-color: #ffffff;
   padding: 30px;
+  margin-right: 20px;
 }
 
 .headshot {
   width: 337px;
   height: 293px;
-  /* border: 2px solid black; */
   border-radius: 10px;
   margin: auto;
   margin-top: 85px;
@@ -106,8 +106,16 @@
 
 .img-description {
   font-size: 16px;
+  font-weight: 400;
   text-align: center;
-  color: #3a3f44;
+  color: white;
+  position: relative;
+  top: -50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* width: 33%; */
+  /* max-width: 200px; */
+  text-align: center;
+  padding: 2px 12px 2px 12px;
 }
 
 .label-tile-sec2 {
