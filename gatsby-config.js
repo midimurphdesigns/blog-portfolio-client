@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Kevin Murphy Web Dev Blog`,
+    title: `Web & Mobile Dev Blog`,
     author: `Kevin Murphy`,
     description: `A blog for all things web & mobile development.`,
     siteUrl: `https://kevinmurphywebdev.com`,
@@ -50,15 +50,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-120239608-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Web & Mobile Dev Blog`,
+        short_name: `Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#5DA5F2`,
