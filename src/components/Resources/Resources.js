@@ -781,6 +781,15 @@ export default function Resources(props) {
             <li>
               <a
                 rel="noopener noreferrer"
+                href="https://www.toptal.com/designers/ux/colors-and-emotions"
+                target="_blank"
+              >
+                Influence with Design - A Guide to Color and Emotions
+              </a>
+            </li>
+            <li>
+              <a
+                rel="noopener noreferrer"
                 href="https://palx.jxnblk.com/"
                 target="_blank"
               >
@@ -822,15 +831,6 @@ export default function Resources(props) {
                 target="_blank"
               >
                 Hue Snap - Color palette ideas
-              </a>
-            </li>
-            <li>
-              <a
-                rel="noopener noreferrer"
-                href="https://duotone.shapefactory.co/"
-                target="_blank"
-              >
-                Duotone image effect generator
               </a>
             </li>
             <li>

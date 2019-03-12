@@ -1,15 +1,11 @@
 .portfolio-page-container {
   font-family: "Open Sans", sans-serif;
-  background-color: rgba(232, 244, 254, .3);
+  background-color: rgba(232, 244, 254, 0.3);
   color: #3a3f44;
 }
 
 .bg-fullstack {
-  background: linear-gradient(
-      rgba(232, 244, 254, .3),
-      rgba(232, 244, 254, .3)
-    ),
-    url(../../images/abstract-nodes-25.png);
+  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.5));
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100vw;
   -moz-background-size: 100% 100vw;
@@ -19,11 +15,7 @@
 }
 
 .bg-wordpress {
-  background: linear-gradient(
-      rgba(232, 244, 254, .3),
-      rgba(232, 244, 254, .3)
-    ),
-    url(../../images/abstract-nodes-31.png);
+  background: linear-gradient(rgba(207, 232, 253, 1), rgba(232, 244, 254, 0.5));
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100vw;
   -moz-background-size: 100% 100vw;
@@ -53,7 +45,7 @@
   width: 60%;
   margin: auto;
   margin-bottom: 50px;
-  margin-top: 80px!important;
+  margin-top: 80px !important;
   padding: 20px;
 }
 
