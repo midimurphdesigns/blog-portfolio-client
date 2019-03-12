@@ -2,7 +2,7 @@
   "name": "gatsby-start-blog",
   "private": true,
   "description": "A blog discussing web and mobile development tools and techniques.",
-  "version": "2.1.0",
+  "version": "0.1.0",
   "author": "Kevin Murphy <midimurphdesigns@gmail.com>",
   "bugs": {
     "url": "https://github.com/midimurphdesigns/blog-portfolio-client/issues"
